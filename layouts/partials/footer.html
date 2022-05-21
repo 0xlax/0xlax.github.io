@@ -1,0 +1,25 @@
+<footer class="footer">
+    <div class="footer__inner">
+      {{ if $.Site.Copyright }}
+        <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
+        {{ else }}
+        {{ partial "logo.html" . }}
+        <div class="copyright">
+          <span
+            >© {{ now.Year }} The Terminal
+            <a href="https://gohugo.io" target="_blank" rel="noopener"></a></span
+          >
+          <span
+            > by
+            <a href="https://twitter.com/0xlax" target="_blank" rel="noopener">Lax</a></span
+          >
+        </div>
+      {{ end }}
+    </div>
+  </footer>
+  
+  <script src="{{ "assets/main.js" | absURL }}"></script>
+  <script src="{{ "assets/prism.js" | absURL }}"></script>
+  
+  {{- partial "extended_footer.html" . }}
+  

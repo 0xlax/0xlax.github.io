@@ -23,11 +23,15 @@ paginate = 5
 
   # Show full page content in RSS feed items
   #(default is Description or Summary metadata in the front matter)
-  # rssFullText = true
+  rssFullText = true
+  
+
+  #Add-This, a socialsharing icons script
+  addThis = "ra-123456789ABCDEF"
 
 [languages]
   [languages.en]
-    title = "Lax"
+    title = "The Terminal"
     subtitle = ""
     keywords = ""
     copyright = ""
@@ -44,7 +48,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "This is Lax"
+      logoText = "The Terminal"
       logoHomeLink = "/"
     # or
     #
