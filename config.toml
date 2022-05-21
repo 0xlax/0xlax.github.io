@@ -26,8 +26,7 @@ paginate = 5
   rssFullText = true
   
 
-  #Add-This, a socialsharing icons script
-  addThis = "ra-123456789ABCDEF"
+
 
 [languages]
   [languages.en]
