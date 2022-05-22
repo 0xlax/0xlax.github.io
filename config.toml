@@ -27,6 +27,32 @@ paginate = 5
   
 
 
+  # Social icons may appear on your site header, footer, and other pages
+  # Add as many icons as you like below
+  # Icon pack "fab" includes brand icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+  # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+  # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
+ [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "//linkedin.com/in/USERNAME"
+
+ [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/0xlax"
+
+ [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "//twitter.com/0xlax"
+
+  # show/hide social icons in site header & footer
+  # configure social icons and links below in [[params.social]]
+  socialInHeader = false
+  socialInFooter = true
+
+
 
 [languages]
   [languages.en]
@@ -59,7 +85,14 @@ paginate = 5
         identifier = "about"
         name = "About"
         url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+    [[languages.en.menu.main]]
+      identifier = "trees"
+      name = "Trees"
+      url = "/trees"
+    [[languages.en.menu.main]]
+      identifier = "showcase"
+      name = "Showcase"
+      url = "/showcase"
+    
+
+
