@@ -5,7 +5,7 @@ title = "About Me"
 
 
 
-### Hello! I'm **Lax**, a researcher interested in multi-chain and cryptography. 
+### Hello! I'm **Lax**, a researcher interested in multi-chain and cryptography. Also, interested in low level kernel stuff.
 
 
 
