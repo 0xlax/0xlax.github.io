@@ -88,11 +88,9 @@ Latus Sidechain is one among the many sidechain in existance thatuses [Ourobous 
 
 
 
-
-
-
-
 ### References
 [cryptobook](https://cryptobook.nakov.com/cryptographic-hash-functions/proof-of-work-hash-functions)
 [Horizon Whitepaper](https://www.horizen.io/assets/files/Horizen-White-Paper.pdf)
 [IBC](https://ibcprotocol.org/implementations)
+
+##### A submision to [Syndica.io](https://syndica.io/)

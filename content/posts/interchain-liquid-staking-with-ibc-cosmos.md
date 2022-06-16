@@ -1,9 +1,9 @@
 ---
-title: "Interchain Liquid Staking With Ibc Cosmos"
+title: "Interchain Liquid Staking With IBC Cosmos"
 date: 2022-06-10T17:27:31+05:30
 ---
 
-what is IBC
+<!-- what is IBC
 
 working of IBC
 
@@ -18,4 +18,4 @@ Osmosis, Quicksilver, Injective Labs, Terra
 terade DOT as cDot on cosmos
 
 multichain interoperability
-
+ -->

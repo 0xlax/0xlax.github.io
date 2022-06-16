@@ -1,6 +1,7 @@
 ---
 title: "Marka: American Fractional Reserve System on Solana"
 date: 2022-05-23T02:19:43+05:30
+description: "Implimentation of American Fractional Reserve System in Solana"
 cover: https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg
 ---
 
