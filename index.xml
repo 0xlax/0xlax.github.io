@@ -55,12 +55,12 @@ Cross-Chain Transfer Protocol (CCTP)
 &lt;li>Backward Transfer&lt;/li>
 &lt;/ul>
 &lt;p>All this might sounds familiar if you have been a cryptodev for a while&amp;hellip; COSMOS!&lt;/p>
-&lt;p>Cosmos used IBC (Inter BLockchain Communication protocol) and CosmosSDK while Horizon uses CCTP and SidechainSDK. Though the functionality between IBC and CCTP are similar with respect to multichain interoperability, there are vast differences between them. Explained later.&lt;/p>
+&lt;p>Cosmos uses IBC (Inter Blockchain Communication protocol) and CosmosSDK while Horizon uses CCTP and SidechainSDK. Though the functionality between IBC and CCTP are similar with respect to multichain interoperability, there are vast differences between them which is explained later.&lt;/p>
 &lt;h4 id="sidechains">
 Sidechains
 &lt;a href="#sidechains" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h4>
-&lt;p>A Horizen sidechain architecture is built using 3 components. Based on the designed components can be hight coupled or decoupled so it works independent from any particular sidechain implementation.&lt;/p>
+&lt;p>A Horizen sidechain architecture is built using 3 components. Based on the designed, components can be hight coupled or decoupled so it works independent from any particular sidechain implementation.&lt;/p>
 &lt;ul>
 &lt;li>Mainchain consensus protocol (MCP)&lt;/li>
 &lt;li>Cross-Chain Transfer Protocol (CCTP)&lt;/li>
