@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://0xlax.github.io/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://0xlax.github.io/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/digital-tulips/</guid><description/></item><item><title>Flare Network And Songbird Canary</title><link>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</guid><description>
-&lt;h2 id="wip">
-WIP
-&lt;a href="#wip" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://0xlax.github.io/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://0xlax.github.io/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/digital-tulips/</guid><description>
+&lt;p>Traditional Sources for seed and early stage funding supplemented by crowdfunding, raising money from many small investors, in small amounts, over the Internet.&lt;/p>
+&lt;blockquote>
+&lt;p>Underpriced ICO with an average return of 179% from the first day&amp;rsquo;s opening market price, over a holding period that averages just 16 days
+Tokens continue to increase in rpoce, generating average buy-hold abnormal retursns of around 48% in first 30 days.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="history">
+History
+&lt;a href="#history" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>The case of &lt;a href="https://m.wikipedia.org/wiki/Tulip_mania">Tulips Mania&lt;/a> in the period of Dutch Golden Age&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -99,7 +105,12 @@ References
 A submision to &lt;a href="https://syndica.io/">Syndica.io&lt;/a>
 &lt;a href="#a-submision-to-syndicaiohttpssyndicaio" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h5></description></item><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Sat, 11 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
-&lt;p>Came across a algorithimc rust implementation of x25519-dalek&lt;/p></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
+&lt;img src="https://hsto.org/webt/qy/r5/a6/qyr5a6ywaf8vbc2kxtaazdmvgz8.png"/>
+&lt;p>Overview of algorithimc rust implementation of x25519-dalek WIP&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
+&lt;img src="https://miro.medium.com/max/1400/1*86Ivs8UwWMoPfARfwYgSrQ.png"/>
+&lt;p>WIP - Releasing on 17th June&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted --></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://0xlax.github.io/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://0xlax.github.io/posts/american-fractinal-reserve-system/</guid><description>
 &lt;img src="https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg"/>
@@ -133,7 +144,7 @@ What is FRB
 &lt;/blockquote>
 &lt;p>One important requirement of this system in Cryptoworld is that there is no legal protection for crypto assets, pulling a backup from governance/Foundations/operators requires following a nested requirments which is not immediate and takes quite a while to bring into action. Where as with reserves, an automated balance is maintained.&lt;/p>
 &lt;h2 id="markahttpsgithubcommarka-protocolmarka">
-Marka](&lt;a href="https://github.com/Marka-protocol/marka">https://github.com/Marka-protocol/marka&lt;/a>)
+&lt;a href="https://github.com/Marka-protocol/marka">Marka&lt;/a>
 &lt;a href="#markahttpsgithubcommarka-protocolmarka" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h2>
 &lt;p>Introducing &lt;a href="https://github.com/Marka-protocol/marka">&lt;em>Marka&lt;/em>&lt;/a>, a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards&lt;/p>
@@ -142,28 +153,50 @@ Marka](&lt;a href="https://github.com/Marka-protocol/marka">https://github.com/M
 Hello! I&amp;rsquo;m Harshith, a 20 year old researcher interested in multi-chain, cryptography &amp;amp; close to the metal kernel stuff.
 &lt;a href="#hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;p>Checkout &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building:</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
-&lt;h3 id="movetohttpsgithubcom0xlaxmoveto-a-llvm-move-language-compiler-for-solana">
-&lt;a href="https://github.com/0xlax/moveto">moveto&lt;/a>: &lt;em>A LLVM Move language compiler for Solana&lt;/em>
-&lt;a href="#movetohttpsgithubcom0xlaxmoveto-a-llvm-move-language-compiler-for-solana" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;p>Checkout &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
+&lt;p>&lt;a href="https://github.com/0xlax/moveto">&lt;img src="https://cdn-icons-png.flaticon.com/128/284/284469.png" alt="Moveto">&lt;/a>&lt;/p>
+&lt;h3 id="moveto--a-llvm-move-language-compiler-for-solana">
+Moveto : &lt;em>A LLVM Move language compiler for Solana&lt;/em>
+&lt;a href="#moveto--a-llvm-move-language-compiler-for-solana" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;h3 id="markahttpsgithubcommarka-protocolmarka-a-solana-amm-based-on-american-fractional-reserve-banking-system">
-&lt;a href="https://github.com/Marka-protocol/marka">Marka&lt;/a>: &lt;em>A solana AMM based on American Fractional Reserve Banking System&lt;/em>
-&lt;a href="#markahttpsgithubcommarka-protocolmarka-a-solana-amm-based-on-american-fractional-reserve-banking-system" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;h3 id="heading">
+&lt;a href="#heading" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;h3 id="aptos-gosdkhttpsgithubcom0xlaxaptos-go-go-client-for-aptoshttpsaptoslabscom-l1-blockchain">
-&lt;a href="https://github.com/0xlax/aptos-go">Aptos-goSDK&lt;/a>: &lt;em>Go client for &lt;a href="https://aptoslabs.com/">Aptos&lt;/a> L1 blockchain&lt;/em>
-&lt;a href="#aptos-gosdkhttpsgithubcom0xlaxaptos-go-go-client-for-aptoshttpsaptoslabscom-l1-blockchain" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;p>&lt;a href="https://github.com/Marka-protocol/marka">&lt;img src="https://cdn-icons-png.flaticon.com/128/119/119598.png" alt="Marka">&lt;/a>&lt;/p>
+&lt;h3 id="marka--a-solana-amm-based-on-american-fractional-reserve-banking-system">
+Marka : &lt;em>A solana AMM based on American Fractional Reserve Banking System&lt;/em>
+&lt;a href="#marka--a-solana-amm-based-on-american-fractional-reserve-banking-system" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;h3 id="mtthttpsgithubcom0xlaxmtt-a-multisig-cli-for-cosmossdk-multichain">
-&lt;a href="https://github.com/0xlax/mtt">MTT&lt;/a>: &lt;em>A multisig CLI for CosmosSDK (multichain)&lt;/em>
-&lt;a href="#mtthttpsgithubcom0xlaxmtt-a-multisig-cli-for-cosmossdk-multichain" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;h3 id="heading-1">
+&lt;a href="#heading-1" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
+&lt;p>&lt;a href="https://github.com/0xlax/aptos-go">&lt;img src="https://cdn-icons-png.flaticon.com/128/5117/5117774.png" alt="Aptos-Go">&lt;/a>&lt;/p>
+&lt;h3 id="aptos-go--go-client-for-aptoshttpsaptoslabscom-l1-blockchain">
+Aptos-Go : &lt;em>Go client for &lt;a href="https://aptoslabs.com/">Aptos&lt;/a> L1 blockchain&lt;/em>
+&lt;a href="#aptos-go--go-client-for-aptoshttpsaptoslabscom-l1-blockchain" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-2">
+&lt;a href="#heading-2" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://github.com/0xlax/mtt">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175239.png" alt="mtt">&lt;/a>&lt;/p>
+&lt;h3 id="mtt--a-multisig-cli-for-cosmossdk-multichain">
+MTT : &lt;em>A multisig CLI for CosmosSDK (multichain)&lt;/em>
+&lt;a href="#mtt--a-multisig-cli-for-cosmossdk-multichain" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-3">
+&lt;a href="#heading-3" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://github.com/0xlax/switchboard-exporter">&lt;img src="https://cdn-icons-png.flaticon.com/128/119/119591.png" alt="switchboard-exporter">&lt;/a>&lt;/p>
 &lt;h3 id="switchboard-exporter-wip">
 Switchboard-exporter [WIP]
 &lt;a href="#switchboard-exporter-wip" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;p>and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .&lt;/p></description></item><item><title>Trees</title><link>https://0xlax.github.io/trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/trees/</guid><description>
+&lt;h4 id="and-morehttpsgithubcom0xlax---">
+and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .
+&lt;a href="#and-morehttpsgithubcom0xlax---" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h4>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Trees</title><link>https://0xlax.github.io/trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/trees/</guid><description>
 &lt;h4 id="directory">
 Directory
 &lt;a href="#directory" class="h-anchor" aria-hidden="true">#&lt;/a>

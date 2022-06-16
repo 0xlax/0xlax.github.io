@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on The Terminal</title><link>https://0xlax.github.io/posts/</link><description>Recent content in Posts on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://0xlax.github.io/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/digital-tulips/</guid><description/></item><item><title>Flare Network And Songbird Canary</title><link>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</guid><description>
-&lt;h2 id="wip">
-WIP
-&lt;a href="#wip" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h2></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on The Terminal</title><link>https://0xlax.github.io/posts/</link><description>Recent content in Posts on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://0xlax.github.io/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/digital-tulips/</guid><description>
+&lt;p>Traditional Sources for seed and early stage funding supplemented by crowdfunding, raising money from many small investors, in small amounts, over the Internet.&lt;/p>
+&lt;blockquote>
+&lt;p>Underpriced ICO with an average return of 179% from the first day&amp;rsquo;s opening market price, over a holding period that averages just 16 days
+Tokens continue to increase in rpoce, generating average buy-hold abnormal retursns of around 48% in first 30 days.&lt;/p>
+&lt;/blockquote>
+&lt;h3 id="history">
+History
+&lt;a href="#history" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>The case of &lt;a href="https://m.wikipedia.org/wiki/Tulip_mania">Tulips Mania&lt;/a> in the period of Dutch Golden Age&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -99,7 +105,12 @@ References
 A submision to &lt;a href="https://syndica.io/">Syndica.io&lt;/a>
 &lt;a href="#a-submision-to-syndicaiohttpssyndicaio" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h5></description></item><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Sat, 11 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
-&lt;p>Came across a algorithimc rust implementation of x25519-dalek&lt;/p></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
+&lt;img src="https://hsto.org/webt/qy/r5/a6/qyr5a6ywaf8vbc2kxtaazdmvgz8.png"/>
+&lt;p>Overview of algorithimc rust implementation of x25519-dalek WIP&lt;/p>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
+&lt;img src="https://miro.medium.com/max/1400/1*86Ivs8UwWMoPfARfwYgSrQ.png"/>
+&lt;p>WIP - Releasing on 17th June&lt;/p>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted --></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://0xlax.github.io/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://0xlax.github.io/posts/american-fractinal-reserve-system/</guid><description>
 &lt;img src="https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg"/>
@@ -133,7 +144,7 @@ What is FRB
 &lt;/blockquote>
 &lt;p>One important requirement of this system in Cryptoworld is that there is no legal protection for crypto assets, pulling a backup from governance/Foundations/operators requires following a nested requirments which is not immediate and takes quite a while to bring into action. Where as with reserves, an automated balance is maintained.&lt;/p>
 &lt;h2 id="markahttpsgithubcommarka-protocolmarka">
-Marka](&lt;a href="https://github.com/Marka-protocol/marka">https://github.com/Marka-protocol/marka&lt;/a>)
+&lt;a href="https://github.com/Marka-protocol/marka">Marka&lt;/a>
 &lt;a href="#markahttpsgithubcommarka-protocolmarka" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h2>
 &lt;p>Introducing &lt;a href="https://github.com/Marka-protocol/marka">&lt;em>Marka&lt;/em>&lt;/a>, a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards&lt;/p>
