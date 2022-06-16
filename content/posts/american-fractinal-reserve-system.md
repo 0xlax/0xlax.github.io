@@ -3,6 +3,11 @@ title: "Marka: American Fractional Reserve System on Solana"
 date: 2022-05-23T02:19:43+05:30
 description: "Implimentation of American Fractional Reserve System in Solana"
 cover: https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg
+tags: [
+    "AMM",
+    "Dapps",
+    "Solana",
+]
 ---
 
 
@@ -44,7 +49,7 @@ The system now has escalated into a total amount of $27.73 from $10. This is kno
 One important requirement of this system in Cryptoworld is that there is no legal protection for crypto assets, pulling a backup from governance/Foundations/operators requires following a nested requirments which is not immediate and takes quite a while to bring into action. Where as with reserves, an automated balance is maintained.
  
 
-##  Marka](https://github.com/Marka-protocol/marka)
+##  [Marka](https://github.com/Marka-protocol/marka)
 
 Introducing [*Marka*](https://github.com/Marka-protocol/marka),  a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards 
 

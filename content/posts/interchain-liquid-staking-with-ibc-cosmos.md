@@ -1,7 +1,11 @@
 ---
 title: "Interchain Liquid Staking With IBC Cosmos"
 date: 2022-06-10T17:27:31+05:30
+cover: "https://miro.medium.com/max/1400/1*86Ivs8UwWMoPfARfwYgSrQ.png"
 ---
+
+WIP - Releasing on 17th June
+
 
 <!-- what is IBC
 
