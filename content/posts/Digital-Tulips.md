@@ -12,3 +12,5 @@ Traditional Sources for seed and early stage funding supplemented by crowdfundin
 ### History
 
 The case of [Tulips Mania](https://m.wikipedia.org/wiki/Tulip_mania) in the period of Dutch Golden Age 
+
+https://technical.ly/startups/texel-blockchain-tulips/
