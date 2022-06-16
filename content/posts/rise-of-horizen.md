@@ -56,12 +56,12 @@ Basically, a 2-way per protocol that performs 2 operations:
 
 All this might sounds familiar if you have been a cryptodev for a while... COSMOS!
 
-Cosmos used IBC (Inter BLockchain Communication protocol) and CosmosSDK while Horizon uses CCTP and SidechainSDK. Though the functionality between IBC and CCTP are similar with respect to multichain interoperability, there are vast differences between them. Explained later.
+Cosmos uses IBC (Inter Blockchain Communication protocol) and CosmosSDK while Horizon uses CCTP and SidechainSDK. Though the functionality between IBC and CCTP are similar with respect to multichain interoperability, there are vast differences between them which is explained later.
 
 
 #### Sidechains
 
-A Horizen sidechain architecture is built using 3 components. Based on the designed components can be hight coupled or decoupled so it works independent from any particular sidechain implementation.
+A Horizen sidechain architecture is built using 3 components. Based on the designed, components can be hight coupled or decoupled so it works independent from any particular sidechain implementation.
 
 * Mainchain consensus protocol (MCP)
 * Cross-Chain Transfer Protocol (CCTP)
