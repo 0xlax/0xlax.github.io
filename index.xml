@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://0xlax.github.io/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 11 Jun 2022 20:20:36 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Sat, 11 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://0xlax.github.io/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jun 2022 08:21:30 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Flare_network_and_songbird_canary</title><link>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</guid><description/></item><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Sat, 11 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
 &lt;p>Came across a algorithimc rust implementation of x25519-dalek&lt;/p></description></item><item><title>Interchain Liquid Staking With Ibc Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
 &lt;p>what is IBC&lt;/p>
 &lt;p>working of IBC&lt;/p>
@@ -46,9 +46,9 @@ Marka](&lt;a href="https://github.com/Marka-protocol/marka">https://github.com/M
 &lt;/h2>
 &lt;p>Introducing &lt;a href="https://github.com/Marka-protocol/marka">&lt;em>Marka&lt;/em>&lt;/a>, a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards&lt;/p>
 &lt;p>Scaffolding and Architecture [4 hours]&lt;/p></description></item><item><title>About Me</title><link>https://0xlax.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/about/</guid><description>
-&lt;h3 id="hello-im-lax-a-researcher-interested-in-multi-chain-and-cryptography-also-interested-in-low-level-kernel-stuff">
-Hello! I&amp;rsquo;m &lt;strong>Lax&lt;/strong>, a researcher interested in multi-chain and cryptography. Also, interested in low level kernel stuff.
-&lt;a href="#hello-im-lax-a-researcher-interested-in-multi-chain-and-cryptography-also-interested-in-low-level-kernel-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;h3 id="hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff">
+Hello! I&amp;rsquo;m Harshith, a 20 year old researcher interested in multi-chain, cryptography &amp;amp; close to the metal kernel stuff.
+&lt;a href="#hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;p>Checkout &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building:</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
 &lt;h3 id="movetohttpsgithubcom0xlaxmoveto-a-llvm-move-language-compiler-for-solana">
@@ -72,7 +72,8 @@ Switchboard-exporter [WIP]
 &lt;a href="#switchboard-exporter-wip" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;p>and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .&lt;/p></description></item><item><title>Trees</title><link>https://0xlax.github.io/trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/trees/</guid><description>
-&lt;h3 id="heading">
-&lt;a href="#heading" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h3>
+&lt;h4 id="directory">
+Directory
+&lt;a href="#directory" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h4>
 &lt;img src="https://kbimages1-a.akamaihd.net/e26abc5f-062d-47d0-9b22-ac35ff246c11/1200/1200/False/the-autobiography-of-benjamin-franklin-101.jpg" alt="Hello Friend" class="left" style="width:200px" /></description></item></channel></rss>
