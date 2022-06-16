@@ -5,7 +5,7 @@ title = "About Me"
 
 
 
-### Hello! I'm **Lax**, a researcher interested in multi-chain and cryptography. Also, interested in low level kernel stuff.
+### Hello! I'm Harshith, a 20 year old researcher interested in multi-chain, cryptography & close to the metal kernel stuff.
 
 
 
