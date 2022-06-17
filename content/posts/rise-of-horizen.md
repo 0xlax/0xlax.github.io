@@ -48,10 +48,10 @@ Equihash is also used by ZCash, Bitcoin Gold and known for being [ASIC-resistant
  
 {{< image src="/img/cctp.png" alt="CCTP" position="center" >}}
 
-The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. "Transfer" of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in bitcoin and Ethereum, the chains use UTXO but with specific sidechain outfut (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.
+The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. "Transfer" of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in Bitcoin and Ethereum, the chains use UTXO but with specific sidechain output (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.
 
-Basically, a 2-way per protocol that performs 2 operations:
-* Foward Transfer
+Basically, a 2-way protocol that performs 2 operations:
+* Forward Transfer
 * Backward Transfer
 
 All this might sounds familiar if you have been a cryptodev for a while... COSMOS!
@@ -72,7 +72,7 @@ Multipurposeness in a sidechain can be achieved by designing a system so that MC
 Check out [SidechainSDK](https://github.com/HorizenOfficial/Sidechains-SDK) to know more about building on Horizen
 
 
-Latus Sidechain is one among the many sidechain in existance thatuses [Ourobous POS](https://eprint.iacr.org/2016/889.pdf)
+Latus Sidechain is one among the many sidechains in existance that uses [Ourobous POS](https://eprint.iacr.org/2016/889.pdf) algorithm 
 
 
 #### IBC vs CCTP
@@ -93,4 +93,4 @@ Latus Sidechain is one among the many sidechain in existance thatuses [Ourobous 
 [Horizon Whitepaper](https://www.horizen.io/assets/files/Horizen-White-Paper.pdf)
 [IBC](https://ibcprotocol.org/implementations)
 
-##### A submision to [Syndica.io](https://syndica.io/)
+##### A submission to [Syndica.io](https://syndica.io/)

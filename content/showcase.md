@@ -28,15 +28,23 @@ title: "Built and Building"
 [![switchboard-exporter](https://cdn-icons-png.flaticon.com/128/119/119591.png)](https://github.com/0xlax/switchboard-exporter)
 ### Switchboard-exporter [WIP] 
 
+###
+
+[![CVV](https://cdn-icons-png.flaticon.com/128/3175/3175153.png)](https://github.com/0xlax/ccv-types)
+### Cosmos Cross-Chain Validator utitlities
+
+###
+
+[![switchboard-goSDK](https://cdn-icons-png.flaticon.com/128/3175/3175223.png)](https://github.com/0xlax/switchboard-go)
+### Switchboard-goSDK [WIP] 
+
+###
 
 #### and [more](https://github.com/0xlax) . . .
 
  
 
 <!-- 
-https://cdn-icons-png.flaticon.com/128/119/119591.png
-https://cdn-icons-png.flaticon.com/128/3175/3175153.png
-https://cdn-icons-png.flaticon.com/128/3175/3175223.png
 https://cdn-icons-png.flaticon.com/128/3175/3175132.png
 https://cdn-icons-png.flaticon.com/128/3175/3175175.png
 https://cdn-icons-png.flaticon.com/128/3175/3175138.png
