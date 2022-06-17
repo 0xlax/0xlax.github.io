@@ -48,10 +48,10 @@ Cross-Chain Transfer Protocol (CCTP)
 &lt;a href="#cross-chain-transfer-protocol-cctp" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h4>
 &lt;img src="https://0xlax.github.io/img/cctp.png" alt="CCTP" class="center" />
-&lt;p>The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. &amp;ldquo;Transfer&amp;rdquo; of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in bitcoin and Ethereum, the chains use UTXO but with specific sidechain outfut (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.&lt;/p>
-&lt;p>Basically, a 2-way per protocol that performs 2 operations:&lt;/p>
+&lt;p>The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. &amp;ldquo;Transfer&amp;rdquo; of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in Bitcoin and Ethereum, the chains use UTXO but with specific sidechain output (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.&lt;/p>
+&lt;p>Basically, a 2-way protocol that performs 2 operations:&lt;/p>
 &lt;ul>
-&lt;li>Foward Transfer&lt;/li>
+&lt;li>Forward Transfer&lt;/li>
 &lt;li>Backward Transfer&lt;/li>
 &lt;/ul>
 &lt;p>All this might sounds familiar if you have been a cryptodev for a while&amp;hellip; COSMOS!&lt;/p>
@@ -68,7 +68,7 @@ Sidechains
 &lt;/ul>
 &lt;p>Multipurposeness in a sidechain can be achieved by designing a system so that MCP and SCP are completely &lt;a href="https://arxiv.org/abs/1812.05441">decoupled&lt;/a>.&lt;/p>
 &lt;p>Check out &lt;a href="https://github.com/HorizenOfficial/Sidechains-SDK">SidechainSDK&lt;/a> to know more about building on Horizen&lt;/p>
-&lt;p>Latus Sidechain is one among the many sidechain in existance thatuses &lt;a href="https://eprint.iacr.org/2016/889.pdf">Ourobous POS&lt;/a>&lt;/p>
+&lt;p>Latus Sidechain is one among the many sidechains in existance that uses &lt;a href="https://eprint.iacr.org/2016/889.pdf">Ourobous POS&lt;/a> algorithm&lt;/p>
 &lt;h4 id="ibc-vs-cctp">
 IBC vs CCTP
 &lt;a href="#ibc-vs-cctp" class="h-anchor" aria-hidden="true">#&lt;/a>
@@ -102,9 +102,9 @@ References
 &lt;p>&lt;a href="https://cryptobook.nakov.com/cryptographic-hash-functions/proof-of-work-hash-functions">cryptobook&lt;/a>
 &lt;a href="https://www.horizen.io/assets/files/Horizen-White-Paper.pdf">Horizon Whitepaper&lt;/a>
 &lt;a href="https://ibcprotocol.org/implementations">IBC&lt;/a>&lt;/p>
-&lt;h5 id="a-submision-to-syndicaiohttpssyndicaio">
-A submision to &lt;a href="https://syndica.io/">Syndica.io&lt;/a>
-&lt;a href="#a-submision-to-syndicaiohttpssyndicaio" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;h5 id="a-submission-to-syndicaiohttpssyndicaio">
+A submission to &lt;a href="https://syndica.io/">Syndica.io&lt;/a>
+&lt;a href="#a-submission-to-syndicaiohttpssyndicaio" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h5></description></item><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Sat, 11 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
 &lt;img src="https://hsto.org/webt/qy/r5/a6/qyr5a6ywaf8vbc2kxtaazdmvgz8.png"/>
 &lt;p>Overview of algorithimc rust implementation of x25519-dalek WIP&lt;/p>
@@ -191,6 +191,25 @@ MTT : &lt;em>A multisig CLI for CosmosSDK (multichain)&lt;/em>
 &lt;h3 id="switchboard-exporter-wip">
 Switchboard-exporter [WIP]
 &lt;a href="#switchboard-exporter-wip" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-4">
+&lt;a href="#heading-4" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://github.com/0xlax/ccv-types">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175153.png" alt="CVV">&lt;/a>&lt;/p>
+&lt;h3 id="cosmos-cross-chain-validator-utitlities">
+Cosmos Cross-Chain Validator utitlities
+&lt;a href="#cosmos-cross-chain-validator-utitlities" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-5">
+&lt;a href="#heading-5" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://github.com/0xlax/switchboard-go">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175223.png" alt="switchboard-goSDK">&lt;/a>&lt;/p>
+&lt;h3 id="switchboard-gosdk-wip">
+Switchboard-goSDK [WIP]
+&lt;a href="#switchboard-gosdk-wip" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-6">
+&lt;a href="#heading-6" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;h4 id="and-morehttpsgithubcom0xlax---">
 and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .
