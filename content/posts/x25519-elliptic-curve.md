@@ -52,23 +52,46 @@ Similar problems exist in ECDH key exchange protocols that rely only on x coordi
 
 
 
-
-
-
-
-
-
-
-
 ### Applications
 
-* Protocols:
-1. [QUIC](https://en.wikipedia.org/wiki/QUIC)
-2. [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-3. [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
+1. Protocols:
+* [QUIC](https://en.wikipedia.org/wiki/QUIC)
+* [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+* [SSH](https://en.wikipedia.org/wiki/Secure_Shell)
+* [Signal Protocol](https://signal.org/blog/signal-inside-and-out/)
 
 
 
+2. Networks:
+* [Tor](https://www.torproject.org/) 
+* [Stellar](https://www.stellar.org/)
+
+3. SSH Softwares
+* [ConnectBot — SSH client for Android](https://github.com/connectbot/connectbot)
+* [redox-ssh — SSH Client and Server written in Rust](https://gitlab.redox-os.org/redox-os/redox-ssh)
+* [SmartFTP — an FTP, SSH, SFTP client](https://www.smartftp.com/)
+* [pts-dropbear — Dropbear SSH tools with ed25519 and other improvements by pts](https://github.com/pts/pts-dropbear)
+
+
+4. NaCl Libraries
+* [NaCl Networking and Cryptography Library](https://nacl.cr.yp.to/)
+* [PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)
+* [Go: NaCl port](https://pkg.go.dev/golang.org/x/crypto/nacl)
+
+
+5. Crypto Libraries
+* [Go: curve25519](https://pkg.go.dev/golang.org/x/crypto/curve25519)
+* [C++: curve25519-uwp](https://github.com/jeff-r-koyaltech/curve25519-uwp)
+* [DJB's Implementation](https://cr.yp.to/ecdh.html)
+* [Rust: X25519-dalek](https://github.com/dalek-cryptography/x25519-dalek)
+
+
+6. TLS Libraries
+* [LibreSSL](https://www.libressl.org/)
+* [GnuTLS](https://gnutls.org/)
+* [rustls](https://github.com/rustls/rustls)
+* [tlslite-ng — an open source python library that implements SSL and TLS cryptographic protocols](https://github.com/tlsfuzzer/tlslite-ng)
+* [nuTLS — Minimal, modern, dependency-free TLS server / client library for Linux](https://github.com/turbo/nuTLS)
 
 
 
