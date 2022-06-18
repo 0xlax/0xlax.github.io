@@ -20,14 +20,58 @@ X25519
 Applications
 &lt;a href="#applications" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;ul>
-&lt;li>Protocols:&lt;/li>
-&lt;/ul>
 &lt;ol>
+&lt;li>Protocols:&lt;/li>
+&lt;/ol>
+&lt;ul>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/QUIC">QUIC&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://signal.org/blog/signal-inside-and-out/">Signal Protocol&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Networks:&lt;/li>
 &lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://www.torproject.org/">Tor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.stellar.org/">Stellar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>SSH Softwares&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/connectbot/connectbot">ConnectBot — SSH client for Android&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.redox-os.org/redox-os/redox-ssh">redox-ssh — SSH Client and Server written in Rust&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.smartftp.com/">SmartFTP — an FTP, SSH, SFTP client&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pts/pts-dropbear">pts-dropbear — Dropbear SSH tools with ed25519 and other improvements by pts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>NaCl Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://nacl.cr.yp.to/">NaCl Networking and Cryptography Library&lt;/a>&lt;/li>
+&lt;li>[PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)&lt;/li>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">Go: NaCl port&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="5">
+&lt;li>Crypto Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/curve25519">Go: curve25519&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jeff-r-koyaltech/curve25519-uwp">C++: curve25519-uwp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cr.yp.to/ecdh.html">DJB&amp;rsquo;s Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/dalek-cryptography/x25519-dalek">Rust: X25519-dalek&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>TLS Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://www.libressl.org/">LibreSSL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gnutls.org/">GnuTLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rustls/rustls">rustls&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/tlsfuzzer/tlslite-ng">tlslite-ng — an open source python library that implements SSL and TLS cryptographic protocols&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/turbo/nuTLS">nuTLS — Minimal, modern, dependency-free TLS server / client library for Linux&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h3 id="terminology">
 Terminology
 &lt;a href="#terminology" class="h-anchor" aria-hidden="true">#&lt;/a>

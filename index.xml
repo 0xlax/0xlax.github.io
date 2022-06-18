@@ -4,12 +4,13 @@
 &lt;p>Underpriced ICO with an average return of 179% from the first day&amp;rsquo;s opening market price, over a holding period that averages just 16 days
 Tokens continue to increase in rpoce, generating average buy-hold abnormal retursns of around 48% in first 30 days.&lt;/p>
 &lt;/blockquote>
-&lt;h3 id="history">
-History
-&lt;a href="#history" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h3>
-&lt;p>The case of &lt;a href="https://m.wikipedia.org/wiki/Tulip_mania">Tulips Mania&lt;/a> in the period of Dutch Golden Age&lt;/p>
-&lt;p>&lt;a href="https://technical.ly/startups/texel-blockchain-tulips/">https://technical.ly/startups/texel-blockchain-tulips/&lt;/a>&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+&lt;h1 id="publishing-on-2022-06-23">
+Publishing on 2022-06-23
+&lt;a href="#publishing-on-2022-06-23" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h1>
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted -->
+&lt;!-- raw HTML omitted --></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -131,14 +132,58 @@ X25519
 Applications
 &lt;a href="#applications" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;ul>
-&lt;li>Protocols:&lt;/li>
-&lt;/ul>
 &lt;ol>
+&lt;li>Protocols:&lt;/li>
+&lt;/ol>
+&lt;ul>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/QUIC">QUIC&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Transport_Layer_Security">TLS&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://en.wikipedia.org/wiki/Secure_Shell">SSH&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://signal.org/blog/signal-inside-and-out/">Signal Protocol&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>Networks:&lt;/li>
 &lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://www.torproject.org/">Tor&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.stellar.org/">Stellar&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>SSH Softwares&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/connectbot/connectbot">ConnectBot — SSH client for Android&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gitlab.redox-os.org/redox-os/redox-ssh">redox-ssh — SSH Client and Server written in Rust&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.smartftp.com/">SmartFTP — an FTP, SSH, SFTP client&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/pts/pts-dropbear">pts-dropbear — Dropbear SSH tools with ed25519 and other improvements by pts&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>NaCl Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://nacl.cr.yp.to/">NaCl Networking and Cryptography Library&lt;/a>&lt;/li>
+&lt;li>[PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)&lt;/li>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">Go: NaCl port&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="5">
+&lt;li>Crypto Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/curve25519">Go: curve25519&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jeff-r-koyaltech/curve25519-uwp">C++: curve25519-uwp&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cr.yp.to/ecdh.html">DJB&amp;rsquo;s Implementation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/dalek-cryptography/x25519-dalek">Rust: X25519-dalek&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="6">
+&lt;li>TLS Libraries&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>&lt;a href="https://www.libressl.org/">LibreSSL&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://gnutls.org/">GnuTLS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/rustls/rustls">rustls&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/tlsfuzzer/tlslite-ng">tlslite-ng — an open source python library that implements SSL and TLS cryptographic protocols&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/turbo/nuTLS">nuTLS — Minimal, modern, dependency-free TLS server / client library for Linux&lt;/a>&lt;/li>
+&lt;/ul>
 &lt;h3 id="terminology">
 Terminology
 &lt;a href="#terminology" class="h-anchor" aria-hidden="true">#&lt;/a>
