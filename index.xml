@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://0xlax.github.io/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://0xlax.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://0xlax.github.io/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/digital-tulips/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Welcome to The Terminal on The Terminal</title><link>https://laxman.tech/</link><description>Recent content in Welcome to The Terminal on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Jun 2022 16:59:52 +0530</lastBuildDate><atom:link href="https://laxman.tech/index.xml" rel="self" type="application/rss+xml"/><item><title>Digital Tulips</title><link>https://laxman.tech/posts/digital-tulips/</link><pubDate>Thu, 16 Jun 2022 16:59:52 +0530</pubDate><guid>https://laxman.tech/posts/digital-tulips/</guid><description>
 &lt;p>Traditional Sources for seed and early stage funding supplemented by crowdfunding, raising money from many small investors, in small amounts, over the Internet.&lt;/p>
 &lt;blockquote>
 &lt;p>Underpriced ICO with an average return of 179% from the first day&amp;rsquo;s opening market price, over a holding period that averages just 16 days
@@ -10,13 +10,13 @@ Publishing on 2022-06-23
 &lt;/h1>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Flare Network And Songbird Canary</title><link>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>Flare Network And Songbird Canary</title><link>https://laxman.tech/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://laxman.tech/posts/flare_network_and_songbird_canary/</guid><description>
 &lt;img src="https://cryptstorm.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-06-at-17.50.09-1280x640.png"/>
 &lt;h2 id="wip">
 WIP
 &lt;a href="#wip" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h2>
-&lt;p>Zero Incentivised Network, Node-Oracle, SEC, Permissionless,&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+&lt;p>Zero Incentivised Network, Node-Oracle, SEC, Permissionless,&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://laxman.tech/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://laxman.tech/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -54,7 +54,7 @@ Internals and Architecture
 Cross-Chain Transfer Protocol (CCTP)
 &lt;a href="#cross-chain-transfer-protocol-cctp" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h4>
-&lt;img src="https://0xlax.github.io/img/cctp.png" alt="CCTP" class="center" />
+&lt;img src="https://laxman.tech/img/cctp.png" alt="CCTP" class="center" />
 &lt;p>The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. &amp;ldquo;Transfer&amp;rdquo; of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in Bitcoin and Ethereum, the chains use UTXO but with specific sidechain output (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.&lt;/p>
 &lt;p>Basically, a 2-way protocol that performs 2 operations:&lt;/p>
 &lt;ul>
@@ -112,11 +112,11 @@ References
 &lt;h5 id="a-submission-to-syndicaiohttpssyndicaio">
 A submission to &lt;a href="https://syndica.io/">Syndica.io&lt;/a>
 &lt;a href="#a-submission-to-syndicaiohttpssyndicaio" class="h-anchor" aria-hidden="true">#&lt;/a>
-&lt;/h5></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://0xlax.github.io/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
+&lt;/h5></description></item><item><title>Interchain Liquid Staking With IBC Cosmos</title><link>https://laxman.tech/posts/interchain-liquid-staking-with-ibc-cosmos/</link><pubDate>Fri, 10 Jun 2022 17:27:31 +0530</pubDate><guid>https://laxman.tech/posts/interchain-liquid-staking-with-ibc-cosmos/</guid><description>
 &lt;img src="https://miro.medium.com/max/1400/1*86Ivs8UwWMoPfARfwYgSrQ.png"/>
 &lt;p>WIP - Releasing on 17th June&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>X25519 Elliptic Curve</title><link>https://0xlax.github.io/posts/x25519-elliptic-curve/</link><pubDate>Thu, 02 Jun 2022 20:20:36 +0530</pubDate><guid>https://0xlax.github.io/posts/x25519-elliptic-curve/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>X25519 Elliptic Curve</title><link>https://laxman.tech/posts/x25519-elliptic-curve/</link><pubDate>Thu, 02 Jun 2022 20:20:36 +0530</pubDate><guid>https://laxman.tech/posts/x25519-elliptic-curve/</guid><description>
 &lt;img src="https://hsto.org/webt/qy/r5/a6/qyr5a6ywaf8vbc2kxtaazdmvgz8.png"/>
 &lt;!-- raw HTML omitted -->
 &lt;p>x25519 is a fast, secure &lt;a href="#terminology">Curve25119 ECDH&lt;/a> function which lays the foundation of almost all field of software including Operating sytems, Network, TLS Libraries and Blockchains.&lt;/p>
@@ -218,7 +218,7 @@ References
 &lt;p>&lt;a href="https://github.com/longcpp/CryptoInAction/blob/master/intro-ed25519/190902-intro-x25519.pdf">intro-ed25519&lt;/a>
 &lt;a href="https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman">ECDH protocol&lt;/a>&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://0xlax.github.io/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://0xlax.github.io/posts/american-fractinal-reserve-system/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://laxman.tech/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://laxman.tech/posts/american-fractinal-reserve-system/</guid><description>
 &lt;img src="https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg"/>
 &lt;h2 id="implimentation-of-american-fractional-reserve-system-in-solana">
 Implimentation of American Fractional Reserve System in Solana
@@ -254,12 +254,12 @@ What is FRB
 &lt;a href="#markahttpsgithubcommarka-protocolmarka" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h2>
 &lt;p>Introducing &lt;a href="https://github.com/Marka-protocol/marka">&lt;em>Marka&lt;/em>&lt;/a>, a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards&lt;/p>
-&lt;p>Scaffolding and Architecture [4 hours]&lt;/p></description></item><item><title>About Me</title><link>https://0xlax.github.io/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/about/</guid><description>
+&lt;p>Scaffolding and Architecture [4 hours]&lt;/p></description></item><item><title>About Me</title><link>https://laxman.tech/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laxman.tech/about/</guid><description>
 &lt;h3 id="hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff">
 Hello! I&amp;rsquo;m Harshith, a 20 year old researcher interested in multi-chain, cryptography &amp;amp; close to the metal kernel stuff.
 &lt;a href="#hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;p>Checkout &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
+&lt;p>Checkout &lt;a href="https://laxman.tech/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building</title><link>https://laxman.tech/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laxman.tech/showcase/</guid><description>
 &lt;p>&lt;a href="https://github.com/0xlax/moveto">&lt;img src="https://cdn-icons-png.flaticon.com/128/284/284469.png" alt="Moveto">&lt;/a>&lt;/p>
 &lt;h3 id="moveto--a-llvm-move-language-compiler-for-solana">
 Moveto : &lt;em>A LLVM Move language compiler for Solana&lt;/em>
@@ -321,7 +321,7 @@ and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .
 &lt;a href="#and-morehttpsgithubcom0xlax---" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h4>
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Trees</title><link>https://0xlax.github.io/trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/trees/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>Trees</title><link>https://laxman.tech/trees/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://laxman.tech/trees/</guid><description>
 &lt;h4 id="directory">
 Directory
 &lt;a href="#directory" class="h-anchor" aria-hidden="true">#&lt;/a>
