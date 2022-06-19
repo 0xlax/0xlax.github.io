@@ -50,7 +50,7 @@ Applications
 &lt;/ol>
 &lt;ul>
 &lt;li>&lt;a href="https://nacl.cr.yp.to/">NaCl Networking and Cryptography Library&lt;/a>&lt;/li>
-&lt;li>[PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)&lt;/li>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">PyNaCl&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">Go: NaCl port&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ol start="5">

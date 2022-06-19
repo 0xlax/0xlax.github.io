@@ -10,7 +10,13 @@ Publishing on 2022-06-23
 &lt;/h1>
 &lt;!-- raw HTML omitted -->
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>Flare Network And Songbird Canary</title><link>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</link><pubDate>Tue, 14 Jun 2022 08:21:30 +0530</pubDate><guid>https://0xlax.github.io/posts/flare_network_and_songbird_canary/</guid><description>
+&lt;img src="https://cryptstorm.com/wp-content/uploads/2020/12/Screen-Shot-2020-12-06-at-17.50.09-1280x640.png"/>
+&lt;h2 id="wip">
+WIP
+&lt;a href="#wip" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h2>
+&lt;p>Zero Incentivised Network, Node-Oracle, SEC, Permissionless,&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -162,7 +168,7 @@ Applications
 &lt;/ol>
 &lt;ul>
 &lt;li>&lt;a href="https://nacl.cr.yp.to/">NaCl Networking and Cryptography Library&lt;/a>&lt;/li>
-&lt;li>[PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)&lt;/li>
+&lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">PyNaCl&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://pkg.go.dev/golang.org/x/crypto/nacl">Go: NaCl port&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ol start="5">
