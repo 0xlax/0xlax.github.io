@@ -218,7 +218,135 @@ References
 &lt;p>&lt;a href="https://github.com/longcpp/CryptoInAction/blob/master/intro-ed25519/190902-intro-x25519.pdf">intro-ed25519&lt;/a>
 &lt;a href="https://en.wikipedia.org/wiki/Elliptic-curve_Diffie%E2%80%93Hellman">ECDH protocol&lt;/a>&lt;/p>
 &lt;!-- raw HTML omitted -->
-&lt;!-- raw HTML omitted --></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://0xlax.github.io/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://0xlax.github.io/posts/american-fractinal-reserve-system/</guid><description>
+&lt;!-- raw HTML omitted --></description></item><item><title>Eth2, The Merge and L1s</title><link>https://0xlax.github.io/posts/eth2-vs-l1-metrics/</link><pubDate>Wed, 01 Jun 2022 16:59:52 +0530</pubDate><guid>https://0xlax.github.io/posts/eth2-vs-l1-metrics/</guid><description>
+&lt;img src="https://ethereum.org/static/5d3af9eb308978e7a078bf51022d8a5c/24462/merge.webp"/>
+&lt;h3 id="introduction">
+Introduction
+&lt;a href="#introduction" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>Prices of L1s are known to be volatile and its hard to spin a number on its valuation. Instead, using metrics as Total Value Locked, number of transactions and users count we will see the comparision of Eth2 with other L1s. With Ethereum’s upcoming transition from Proof of Work (POW) to Proof of Stake (POS), we can now use staking yields as a basis of comparison across all Layer-1 tokens.&lt;/p>
+&lt;h3 id="the-merge-">
+The Merge 🐼
+&lt;a href="#the-merge-" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;img src="https://pbs.twimg.com/media/FSkMcTDVEAEFsAR?format=png&amp;amp;name=small" alt="Panda for context">&lt;/p>
+&lt;p>The Beacon Chain, a Ethereum POS network has been running parallel with Ethereum since December 2020. The transition from POW consensus to POS has been awaited and anticipated by many. On the merge, the Ethereum&amp;rsquo;s POW consensus layer will be removed and all future blocks on Ethereum are expected and will be achieved by the then merged Beacon Chain&amp;rsquo;s POS Consensus layer.&lt;/p>
+&lt;p>The Ethereum team has been workign on making this happen along with series of other tests and conducts that regulate the process and safety after the merge including the &lt;a href="https://blog.ethereum.org/2022/03/14/kiln-merge-testnet">Kiln public testnet Merge&lt;/a> in March and the most recent &lt;a href="https://twitter.com/sassal0x/status/1524756386063667200?s=20&amp;amp;t=QZIo6qDUhC8ySoYwtfDbvA">4th shadow fork&lt;/a>&lt;/p>
+&lt;blockquote class="twitter-tweet">&lt;p lang="en" dir="ltr">Ethereum’s Merge is coming&lt;br>&lt;br>Here’s what you need to know, explained simply.&lt;br>&lt;br>🧵&lt;/p>&amp;mdash; Jack Niewold 🫡 (@JackNiewold) &lt;a href="https://twitter.com/JackNiewold/status/1506779959242764288?ref_src=twsrc%5Etfw">March 23, 2022&lt;/a>&lt;/blockquote>
+&lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8">&lt;/script>
+&lt;blockquote>
+&lt;p>Merge is expected to happen in Q3/Q4 2022.&lt;/p>
+&lt;/blockquote>
+&lt;p>The important takeaway from the Merge is that it does not help scale Ethereum! If so what is the point then?&lt;/p>
+&lt;ul>
+&lt;li>Proof-of-Work concensus has a laborious requirement of energy. Miners running nodes in a POW system use powerful GPUs that requires vast amount of electricity to run the calculations and cryptographic puzzles - hashing algorithms that so as to keep the network and funds secure. Comparatively, any recent consumer hardware is capable of being ETH2 validator. And pushing a node to the network to participare in network&amp;rsquo;s consensus algorithm with a minimum stake requirements of 32 ETH and if incase any sort of malicious activities by the validatos leads to &lt;a href="https://consensys.net/knowledge-base/ethereum-2/glossary/#slashing">slashing&lt;/a> of their staked funds.&lt;/li>
+&lt;/ul>
+&lt;p>In addition, since POW requires expensive hardware and electricity costs, ETH token inflation has been around 4.3% per year to compensate the miners for their work. With POS being more energy-efficient, the cost to secure the Ethereum network (token inflation) is much less. Ethereum’s POS issuance model is based on how much ETH is being staked. Currently, there are about 12.5M ETH staked on the Beacon Chain – at that level, annual issuance would be about 0.5%.&lt;/p>
+&lt;p>Although, this new merge is giving out opportunities to develop many Proof-of-Stake distruibuted validator layer protocols and middleware clients. that enables you to run validators across other independent nodes safely. Like, &lt;a href="https://github.com/ObolNetwork/charon">Charon&lt;/a> from &lt;a href="https://obol.tech">Obol Labs&lt;/a>&lt;/p>
+&lt;blockquote>
+&lt;p>Charon integrates into the Ethereum consensus stack as a middleware between the validator client and the beacon node via the official Eth Beacon Node REST API. Charon supports any upstream beacon node that serves the Beacon API. Charon supports any downstream standalone validator client that consumes the Beacon API.&lt;/p>
+&lt;/blockquote>
+&lt;p>One of the advantage of Chaon is you that you can participate in the network&amp;rsquo;s consensus by staking only half the required stake amounts and eark equivalent rewards on your validator nodes.&lt;/p>
+&lt;h3 id="eth-staking">
+ETH Staking
+&lt;a href="#eth-staking" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>An yield return depends on the ETH staked which drives the staking returns&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;h4 id="yields-based-on-eth-staked">
+Yields based on ETH staked
+&lt;a href="#yields-based-on-eth-staked" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h4>
+&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>ETH Staked&lt;/th>
+&lt;th>Max Annual Issuarance (ETH)&lt;/th>
+&lt;th>Max Annual Issurance in %&lt;/th>
+&lt;th>Staking Yield %&lt;/th>
+&lt;th>Annual Burn (ETH)&lt;/th>
+&lt;th>Real Staking Yield %&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>1,000,000&lt;/td>
+&lt;td>&lt;strong>181,019&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.15%&lt;/code>&lt;/td>
+&lt;td>&lt;code>18.10%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>69.68%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>3,000,000&lt;/td>
+&lt;td>&lt;strong>313,534&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.26%&lt;/code>&lt;/td>
+&lt;td>&lt;code>10.45%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>29.10%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10,000,000&lt;/td>
+&lt;td>&lt;strong>572,433&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.47%&lt;/code>&lt;/td>
+&lt;td>&lt;code>5.72%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>12.66%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>12,500,000&lt;/td>
+&lt;td>&lt;strong>624,814&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.52%&lt;/code>&lt;/td>
+&lt;td>&lt;code>5.00%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>10.92%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>30,000,000&lt;/td>
+&lt;td>&lt;strong>991,483&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.82%&lt;/code>&lt;/td>
+&lt;td>&lt;code>3.30%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>6.62%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>42,000,000&lt;/td>
+&lt;td>&lt;strong>1,131,833&lt;/strong>&lt;/td>
+&lt;td>&lt;code>0.94%&lt;/code>&lt;/td>
+&lt;td>&lt;code>2.69%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>5.43%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>66,000,000&lt;/td>
+&lt;td>&lt;strong>1,412,534&lt;/strong>&lt;/td>
+&lt;td>&lt;code>1.17%&lt;/code>&lt;/td>
+&lt;td>&lt;code>2.14%&lt;/code>&lt;/td>
+&lt;td>&lt;strong>bo-3,012,400&lt;/strong>&lt;/td>
+&lt;td>&lt;code>4.21%&lt;/code>&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;h5 id="sourcehttpsdocsethhubioethereum-roadmapethereum-20eth-20-economics">
+&lt;a href="https://docs.ethhub.io/ethereum-roadmap/ethereum-2.0/eth-2.0-economics/">source&lt;/a>
+&lt;a href="#sourcehttpsdocsethhubioethereum-roadmapethereum-20eth-20-economics" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h5>
+&lt;p>The above table estimations are upped with few assumptions excluding MEV, with the current ETH staked on Beacon chain(~10% supply, 12.5M ETH).&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;h4 id="eth-staking-yields-vs-competing-l1s">
+ETH Staking Yields vs Competing L1s
+&lt;a href="#eth-staking-yields-vs-competing-l1s" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h4>
+&lt;/li>
+&lt;/ul>
+&lt;p>Looking at nominal yields, ETH is about middle of the pack compared to its major competitors, with yields ranging from 6.64% to 17.53% in nominal terms. However, with the exception of BNB, all of the other tokens in the competitive set are inflationary. Factoring in token issuance rates, ETH has the highest staking returns on a real yield basis.&lt;/p>
+&lt;p>&lt;img src="https://lh4.googleusercontent.com/o0QJVZxOnt2JbuviicoFDC9570ZMkG-96ENyia3HAYT8wdLAPoblP1CtSqD0n1smRHo7SxhPdE8YSM9Ji6CpG-agF2mXWNkepqUroxJ7L4FFZkyxQQ9AkLPlCuQFJD7TddFPrnyd0J_-myYf-Q" alt="l1">&lt;/p>
+&lt;p>One point to note is that currently only 10.3% of ETH is staked on the Beacon Chain, which is the lowest in the competitive set and likely due to concerns about locking up ETH for a long time (withdrawals are not possible currently). Staking should increase post-Merge as the execution risk of the Merge is removed, ETH moves closer to enabling staking withdrawal, and more people grow comfortable with staking ETH. Staking participation amongst competing L1s ranges from 35% to 76% with an average of 55%. If ETH staking participation increases to the average of 55%, real staking yields for ETH would likely decrease to approximately 4.21%. At 55% of supply staked, ETH’s real yield would project to be higher than SOL, AVAX and MATIC, but lower than BNB, DOT, NEAR and FTM&lt;/p>
+&lt;p>After factoring in projected increases to circulating supply over the next year for the competitive set, ETH’s real staking yield net of dilution is the highest if we assume staking participation remains the same. If ETH’s staking participation reaches 55%, then ETH would rank higher than SOL, AVAX, NEAR and MATIC but lower than BNB, DOT and FTM.&lt;/p></description></item><item><title>Marka: American Fractional Reserve System on Solana</title><link>https://0xlax.github.io/posts/american-fractinal-reserve-system/</link><pubDate>Mon, 23 May 2022 02:19:43 +0530</pubDate><guid>https://0xlax.github.io/posts/american-fractinal-reserve-system/</guid><description>
 &lt;img src="https://media.bizj.us/view/img/1120091/bank-vault-thinkstock*750xx2807-1579-0-222.jpg"/>
 &lt;h2 id="implimentation-of-american-fractional-reserve-system-in-solana">
 Implimentation of American Fractional Reserve System in Solana
@@ -259,7 +387,7 @@ What is FRB
 Hello! I&amp;rsquo;m Harshith, a 20 year old researcher interested in multi-chain, cryptography &amp;amp; close to the metal kernel stuff.
 &lt;a href="#hello-im-harshith-a-20-year-old-researcher-interested-in-multi-chain-cryptography--close-to-the-metal-kernel-stuff" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;p>Checkout &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
+&lt;p>Check out &lt;a href="https://0xlax.github.io/showcase">&lt;strong>Showcase&lt;/strong>&lt;/a> to see my (open sourced) works&lt;/p></description></item><item><title>Built and Building</title><link>https://0xlax.github.io/showcase/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/showcase/</guid><description>
 &lt;p>&lt;a href="https://github.com/0xlax/moveto">&lt;img src="https://cdn-icons-png.flaticon.com/128/284/284469.png" alt="Moveto">&lt;/a>&lt;/p>
 &lt;h3 id="moveto--a-llvm-move-language-compiler-for-solana">
 Moveto : &lt;em>A LLVM Move language compiler for Solana&lt;/em>
