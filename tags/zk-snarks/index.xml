@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zk-SNARKs on The Terminal</title><link>https://laxman.tech/tags/zk-snarks/</link><description>Recent content in zk-SNARKs on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://laxman.tech/tags/zk-snarks/index.xml" rel="self" type="application/rss+xml"/><item><title>Rise of Horizen</title><link>https://laxman.tech/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://laxman.tech/posts/rise-of-horizen/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>zk-SNARKs on The Terminal</title><link>https://0xlax.github.io/tags/zk-snarks/</link><description>Recent content in zk-SNARKs on The Terminal</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 14 Jun 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://0xlax.github.io/tags/zk-snarks/index.xml" rel="self" type="application/rss+xml"/><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
@@ -36,7 +36,7 @@ Internals and Architecture
 Cross-Chain Transfer Protocol (CCTP)
 &lt;a href="#cross-chain-transfer-protocol-cctp" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h4>
-&lt;img src="https://laxman.tech/img/cctp.png" alt="CCTP" class="center" />
+&lt;img src="https://0xlax.github.io/img/cctp.png" alt="CCTP" class="center" />
 &lt;p>The above self-explanatory image depicts how CCTP works i.e, providing safe and secure coin transfer invocations between mainchain and the sidechain. &amp;ldquo;Transfer&amp;rdquo; of coins in this scenario is a process of burning and recreating the coins under different chains (either mainchain to sidechain or vice versa) with same metadata attached regarding the end destinations. Just like a regular transactions as in Bitcoin and Ethereum, the chains use UTXO but with specific sidechain output (for initial transactions). A sidechain is a multi-feature customisable chain that runs parallel to the mainchain.&lt;/p>
 &lt;p>Basically, a 2-way protocol that performs 2 operations:&lt;/p>
 &lt;ul>
