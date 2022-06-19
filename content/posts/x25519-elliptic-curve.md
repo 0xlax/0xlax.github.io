@@ -75,7 +75,7 @@ Similar problems exist in ECDH key exchange protocols that rely only on x coordi
 
 4. NaCl Libraries
 * [NaCl Networking and Cryptography Library](https://nacl.cr.yp.to/)
-* [PyNaCl]9https://pkg.go.dev/golang.org/x/crypto/nacl)
+* [PyNaCl](https://pkg.go.dev/golang.org/x/crypto/nacl)
 * [Go: NaCl port](https://pkg.go.dev/golang.org/x/crypto/nacl)
 
 
