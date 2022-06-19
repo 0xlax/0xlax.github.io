@@ -10,7 +10,7 @@ title = "About Me"
 
 
 
-Checkout [**Showcase**](/showcase) to see my (open sourced) works   
+Check out [**Showcase**](/showcase) to see my (open sourced) works   
 
 
 
