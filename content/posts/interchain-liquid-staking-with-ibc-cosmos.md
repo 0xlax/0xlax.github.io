@@ -2,9 +2,15 @@
 title: "Interchain Liquid Staking With IBC Cosmos"
 date: 2022-06-10T17:27:31+05:30
 cover: "https://miro.medium.com/max/1400/1*86Ivs8UwWMoPfARfwYgSrQ.png"
+description: "How interchain staking with IBC works"
+tags: [
+    "IBC",
+    "Cosmos",
+    "interchain",
+]
 ---
 
-Preliminaries 
+### Preliminaries 
 
 
 
@@ -91,9 +97,9 @@ An application which enables IBC protocol having an Interchain Account ([ICS27](
 Consisting on a Host and Contorller chain, the Controller chaon is able to register an account on Host chain by way of opening a dedicated IBC channel between the two chains.Interhcina assets staking protocols like quicksliver or interhcina asset AMM liek Osmosis increase the efficiency of delegating tokens on behalf users in turn minting  a tokenized representation of users's dekegations.
 
 
-An interrchain staking for each chain will generate and control a deposit amount and number of delegation buckets by way of the interchain Accoubts IBC module
+An interrchain staking for each chain will generate and control a deposit amount and number of delegation buckets by way of the interchain Accounts IBC module
 
-THis lets you deposit so as to recieve the transfer if tokenized delegation shares. Upon receipt of transfer into the deposit accounts, the corresponding address on the interchain staking chain will be credit with the appropriate asset of the value of the transferred delegation shares.
+This lets you deposit so as to recieve the transfer if tokenized delegation shares. Upon receipt of transfer into the deposit accounts, the corresponding address on the interchain staking chain will be credit with the appropriate asset of the value of the transferred delegation shares.
 
 Given that validators are free to choose their own commission rates, a delegation to validator
 A does not provide the same rewards over period T as an equal delegation to validator B. In
@@ -104,11 +110,8 @@ will increase) as one other, regardless of the validators with whom they choose 
 
 ### Risk Socialization and Slashing
 
-Similar to Reward Socialization above, given that validators are independent, run different
-hardware and software configurations and are run by different teams with different experience
-and priorities, the risk profile of each validator is different. In order to maintain fungibility,
-this risk must also be socialized. A slashing event for one Asset validator is therefore borne
-by all qAsset holders through a negative movement in the Asset:qAsset redemption rate.
+
+Given that validators are independent, run different hardware and software configurations and are run by different teams with different experience and priorities, the risk profile of each validator is different. In order to maintain fungibility, this risk must also be socialized. A slashing event for one Asset validator is therefore borne by all qAsset holders through a negative movement in the Asset:qAsset redemption rate.
 
 Given sufficient decentralization across validators, slashing events are hedged against.
 The outcome of such a double-sign slash (5%) for an average (1% of managed supply)
