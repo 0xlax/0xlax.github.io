@@ -47,14 +47,43 @@ The system now has escalated into a total amount of $27.73 from $10. This is kno
 
 
 One important requirement of this system in Cryptoworld is that there is no legal protection for crypto assets, pulling a backup from governance/Foundations/operators requires following a nested requirments which is not immediate and takes quite a while to bring into action. Where as with reserves, an automated balance is maintained.
- 
+
+And, in traditional banking system, Banks create the vast majority (about 90%) of the “money” that exists in an economy. Through bank charters, society grants the exclusive right to banks to create most of the money supply as well as with loans to borrowers funded by creating matching deposit accounts based on confidence. 
+
+Core philosophy on FRB is its based on dihonest. Lettting users believe their money is safe in the bank while the bank invests it into other money creation schemes. In Defi, a user stakes it in a lending pool earning interest as a whole by mone being borrowed. Technically, its the same logic. 
+
+
+Trading of stablecoins without permission and automatically by using liquidity pools instead of traditional market of buyers and sellers whilst maintaining a constant vlaue. An AMM based on FRB might work on other volatile assets with few mathematical complication which I am not equipped to work on at the moment. 
+
+### Constant Product Formula
+
+AMMs have become a primary way to trade assets in the DeFi ecosystem, and it all began with a blog post about “on-chain market makers” by Ethereum founder Vitalik Buterin. The secret ingredient of AMMs is a simple mathematical formula that can take many forms. The most common one was proposed by Vitalik as:
+
+tokenA_balance(p) * tokenB_balance(p) = k
+
+and popularized by Uniswap as:
+
+x * y = k
+
+### Money Maker
+
+There are 2 different types of lending FRB AMM can propose. A Pool based lending or Vault based lending.
+The only advantage of borrowing from vault is Flash Loans.
+
+### 
+* Create liquidity pools of similar assets such as stablecoins - offcer lowers rates of efficient trades
+* Expand flexibility by creating pools across different assets
+* Create pool with 50/50 ratio with a reserve system 
+* Extract 3% from each asset deposit to be reserved in a secure vault for Flash Loans
+
+
+
+
+
 
 ##  [Marka](https://github.com/Marka-protocol/marka)
 
-Introducing [*Marka*](https://github.com/Marka-protocol/marka),  a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. Marka will be open source and public while mapping each progresion into this blog post on a motto that the end result has to be top notch. May it be a program that adds 2 numbers or intersects two chain gotta show standards 
-
-Scaffolding and Architecture [4 hours]
-
+Introducing [*Marka*](https://github.com/Marka-protocol/marka),  a dAPP designed as a replication of Fractional Lending (and Borrowing) system including reserve ratios, treasuries [vault] and multiplier effect or yield aggregation. 
 
 
 
