@@ -46,9 +46,18 @@ title: "Built and Building"
 ###
 
 [![multichain-client](https://cdn-icons-png.flaticon.com/128/3175/3175175.png)](https://github.com/0xlax/multichain-client)
-### Multichain-Client : *A library used to query & fetch the data from blockchain nodes as unified data responses as objects with static named properties.*
+### Multichain-Client[WIP] : *A library used to query & fetch the data from blockchain nodes as unified data responses as objects with static named properties.*
 
 ### 
+
+[![flashloan](https://cdn-icons-png.flaticon.com/128/3175/3175138.png)](https://bitbucket.org/roggieaf/flashloan/)
+###  Composable Solana Flashloan : *traditional flash-loan program based on callback functionality and fail trigger*
+
+###
+
+[![multisig](https://cdn-icons-png.flaticon.com/128/3175/3175221.png)](https://bitbucket.org/roggieaf/multisig/)
+### Solana Multisig : *multisig to execute arbitrary Solana transactions*
+
 
 #### and [more](https://github.com/0xlax) . . .
 
@@ -56,8 +65,7 @@ title: "Built and Building"
 
 <!-- 
 
-https://cdn-icons-png.flaticon.com/128/3175/3175138.png
-https://cdn-icons-png.flaticon.com/128/3175/3175221.png
+
 https://www.flaticon.com/free-icon/mountains_3175239?related_id=3175239
 
  -->
