@@ -560,12 +560,25 @@ Homomorphic Encryption : &lt;em>Fun with Japanese abacus using Webassembly and H
 &lt;a href="#heading-7" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;p>&lt;a href="https://github.com/0xlax/multichain-client">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175175.png" alt="multichain-client">&lt;/a>&lt;/p>
-&lt;h3 id="multichain-client--a-library-used-to-query--fetch-the-data-from-blockchain-nodes-as-unified-data-responses-as-objects-with-static-named-properties">
-Multichain-Client : &lt;em>A library used to query &amp;amp; fetch the data from blockchain nodes as unified data responses as objects with static named properties.&lt;/em>
-&lt;a href="#multichain-client--a-library-used-to-query--fetch-the-data-from-blockchain-nodes-as-unified-data-responses-as-objects-with-static-named-properties" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;h3 id="multichain-clientwip--a-library-used-to-query--fetch-the-data-from-blockchain-nodes-as-unified-data-responses-as-objects-with-static-named-properties">
+Multichain-Client[WIP] : &lt;em>A library used to query &amp;amp; fetch the data from blockchain nodes as unified data responses as objects with static named properties.&lt;/em>
+&lt;a href="#multichain-clientwip--a-library-used-to-query--fetch-the-data-from-blockchain-nodes-as-unified-data-responses-as-objects-with-static-named-properties" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;h3 id="heading-8">
 &lt;a href="#heading-8" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://bitbucket.org/roggieaf/flashloan/">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175138.png" alt="flashloan">&lt;/a>&lt;/p>
+&lt;h3 id="composable-solana-flashloan--traditional-flash-loan-program-based-on-callback-functionality-and-fail-trigger">
+Composable Solana Flashloan : &lt;em>traditional flash-loan program based on callback functionality and fail trigger&lt;/em>
+&lt;a href="#composable-solana-flashloan--traditional-flash-loan-program-based-on-callback-functionality-and-fail-trigger" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;h3 id="heading-9">
+&lt;a href="#heading-9" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>&lt;a href="https://bitbucket.org/roggieaf/multisig/">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175221.png" alt="multisig">&lt;/a>&lt;/p>
+&lt;h3 id="solana-multisig--multisig-to-execute-arbitrary-solana-transactions">
+Solana Multisig : &lt;em>multisig to execute arbitrary Solana transactions&lt;/em>
+&lt;a href="#solana-multisig--multisig-to-execute-arbitrary-solana-transactions" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;h4 id="and-morehttpsgithubcom0xlax---">
 and &lt;a href="https://github.com/0xlax">more&lt;/a> . . .
