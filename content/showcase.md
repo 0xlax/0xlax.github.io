@@ -55,7 +55,7 @@ title: "Built and Building"
 
 ###
 
-[![multisig](https://cdn-icons-png.flaticon.com/128/3175/3175221.png)](https://bitbucket.org/roggieaf/multisig/)
+[![multisig](https://cdn-icons-png.flaticon.com/128/3175/3175221.png)](https://github.com/0xlax/solana-multisig)
 ### Solana Multisig : *multisig to execute arbitrary Solana transactions*
 
 
