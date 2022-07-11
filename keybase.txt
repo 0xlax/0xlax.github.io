@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/harshithlaxman
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://laxman.tech
+  * I am harshithlaxman (https://keybase.io/harshithlaxman) on keybase.
+  * I have a public key ASAi7sPg6-FKUkBeE6_fIf_jIJleX0fYkpuchSjtfBfz3Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012022eec3e0ebe14a52405e13afdf21ffe320995e5f47d8929b9c8528ed7c17f3dc0a",
+      "host": "keybase.io",
+      "kid": "012022eec3e0ebe14a52405e13afdf21ffe320995e5f47d8929b9c8528ed7c17f3dc0a",
+      "uid": "e2ae465e68860dab8b98960dcf5ed519",
+      "username": "harshithlaxman"
+    },
+    "merkle_root": {
+      "ctime": 1657527763,
+      "hash": "c5985e5c996f3edfe6d340b02722def244738ec3b3c0f8c504ce6d06e1fed440a9d941feb634c85a054b94e6894fa35a4844d235774417cb2de3766d5161a0c8",
+      "hash_meta": "3fe7a96d866e8d9013530c48b42681652cb989607afb1420392c9d32ee839207",
+      "seqno": 22827057
+    },
+    "service": {
+      "entropy": "t39U0T70wel4AO5bv9ZEUnsN",
+      "hostname": "laxman.tech",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.9.3"
+  },
+  "ctime": 1657527796,
+  "expire_in": 504576000,
+  "prev": "a0f97dbcd68b9ccfdef744bd4db7c9995862ba5bab146bcab91fc2f90047ec34",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgIu7D4OvhSlJAXhOv3yH/4yCZXl9H2JKbnIUo7XwX89wKp3BheWxvYWTESpcCBsQgoPl9vNaLnM/e90S9TbfJmVhiulurFGvKuR/C+QBH7DTEIMXbXZ4mhoFfdYkGVLKFkW5j5irRnBBbuFxGNTVYeG9FAgHCo3NpZ8RA7rF/clkO/VQQNRNdtugfa5JNBBQAUiViixAEW1goQsvWQWOUq6jfqHl51sTg1Vd31EylCurZX1FnsvvAchvXB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBb6M0pFm1HnxlSuhZhJvR/HgeF7EyX3urXnj+btkfwdo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harshithlaxman
+
+==================================================================
