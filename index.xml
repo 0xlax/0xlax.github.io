@@ -543,7 +543,7 @@ cvv : &lt;em>Cosmos Cross-Chain Validator utilities&lt;/em>
 &lt;h3 id="heading-5">
 &lt;a href="#heading-5" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
-&lt;p>&lt;a href="https://github.com/0xlax/switchboard-go">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175223.png" alt="switchboard-goSDK">&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/0xlax/switchboardv2-go">&lt;img src="https://cdn-icons-png.flaticon.com/128/3175/3175223.png" alt="switchboard-goSDK">&lt;/a>&lt;/p>
 &lt;h3 id="switchboardv2-go-library-wip--go-library-to-interact-with-switchboardv2s-hosted-data-feeds">
 Switchboardv2-go Library [WIP] : &lt;em>Go library to interact with switchboardv2&amp;rsquo;s hosted data feeds&lt;/em>
 &lt;a href="#switchboardv2-go-library-wip--go-library-to-interact-with-switchboardv2s-hosted-data-feeds" class="h-anchor" aria-hidden="true">#&lt;/a>
