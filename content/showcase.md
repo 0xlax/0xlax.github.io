@@ -35,7 +35,7 @@ title: "Built and Building"
 
 ###
 
-[![switchboard-goSDK](https://cdn-icons-png.flaticon.com/128/3175/3175223.png)](https://github.com/0xlax/switchboard-go)
+[![switchboard-goSDK](https://cdn-icons-png.flaticon.com/128/3175/3175223.png)](https://github.com/0xlax/switchboardv2-go)
 ### Switchboardv2-go Library [WIP] : *Go library to interact with switchboardv2's hosted data feeds*
 
 ###
