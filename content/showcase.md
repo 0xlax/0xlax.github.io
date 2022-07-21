@@ -58,6 +58,17 @@ title: "Built and Building"
 [![multisig](https://cdn-icons-png.flaticon.com/128/3175/3175221.png)](https://github.com/0xlax/solana-multisig)
 ### Solana Multisig : *multisig to execute arbitrary Solana transactions*
 
+### 
+
+[![gRPC](https://cdn-icons-png.flaticon.com/128/1788/1788663.png)](https://github.com/0xlax/gRPC)
+### gRPC: *A gRPC blockchain model with server & Client built in Go*
+
+###
+
+[![Gemini](https://cdn-icons-png.flaticon.com/128/1788/1788708.png)](https://github.com/0xlax/gemini)
+### Gemini : *Rust API binding for Gemini exchange*
+
+
 
 #### and [more](https://github.com/0xlax) . . .
 
@@ -66,6 +77,6 @@ title: "Built and Building"
 <!-- 
 
 
-https://www.flaticon.com/free-icon/mountains_3175239?related_id=3175239
+
 
  -->
