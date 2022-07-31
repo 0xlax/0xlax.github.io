@@ -1,21 +1,34 @@
 ---
-title: "Digital Tulips"
+title: "Quantitative Trading in Crypto - Let the blockchain talk!"
 date: 2022-06-16T16:59:52+05:30
-Description: "A study on ICOs"
+cover: "https://miro.medium.com/max/1400/0*WUnJZ2PhVLQgZi_5.jpg"
+Description: "Quantative Trading- If you love 'Math Money', this is for you"
+tags: [
+	"trading",
+	"strategy",
+	"finance",
+
+]
+
 ---
 
-Traditional Sources for seed and early stage funding supplemented by crowdfunding, raising money from many small investors, in small amounts, over the Internet.
 
-> Underpriced ICO with an average return of 179% from the first day's opening market price, over a holding period that averages just 16 days
->Tokens continue to increase in rpoce, generating average buy-hold abnormal retursns of around 48% in first 30 days.
+## Introducton
 
 
-#      Publishing on 2022-06-23
+>Quantitative trading (also called quant trading) involves the use of computer algorithms and programs—based on simple or complex mathematical models—to
+>identify and capitalize on available trading opportunities. At the back end, quant trading also involves research work on historical data with an aim to 
+>identify profit opportunities.
 
 
+# Publishing on 08-15-2022
+<!-- Quant trading is known to be a profitable career choice given there are companies hiing new grads and train them up the ladder. But, people like you and me, interest based learners- there are an abuntant information online neough to train ours -->elves to generate money through quant trading
 
-<!-- ### History -->
+<!-- Quant Trading with Crypto?? -->
 
-<!-- The case of [Tulips Mania](https://m.wikipedia.org/wiki/Tulip_mania) in the period of Dutch Golden Age  -->
 
-<!-- https://technical.ly/startups/texel-blockchain-tulips/ -->
+<!-- This blog-post is a short introductory explanation to quant trading with indepth introduction to certain Python Libraries.  -->
+
+<!-- ### Python -->
+
+

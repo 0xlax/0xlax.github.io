@@ -3,6 +3,7 @@ title: "Built and Building"
 ---
 
 
+
 [![Moveto](https://cdn-icons-png.flaticon.com/128/284/284469.png)](https://github.com/0xlax/moveto) 
 ### Moveto : *A LLVM Move language compiler for Solana*
 
@@ -31,24 +32,52 @@ title: "Built and Building"
 ###
 
 [![CVV](https://cdn-icons-png.flaticon.com/128/3175/3175153.png)](https://github.com/0xlax/ccv-types)
-### cvv : *Cosmos Cross-Chain Validator utitlities*
+### cvv : *Cosmos Cross-Chain Validator utilities*
 
 ###
 
-[![switchboard-goSDK](https://cdn-icons-png.flaticon.com/128/3175/3175223.png)](https://github.com/0xlax/switchboard-go)
+[![switchboard-goSDK](https://cdn-icons-png.flaticon.com/128/3175/3175223.png)](https://github.com/0xlax/switchboardv2-go)
 ### Switchboardv2-go Library [WIP] : *Go library to interact with switchboardv2's hosted data feeds*
 
 ###
+
+[![homomorphic_encryption](https://cdn-icons-png.flaticon.com/128/3175/3175132.png)](https://github.com/0xlax/homomorphic_encryption.git)
+### Homomorphic Encryption : *Fun with Japanese abacus using Webassembly and Homomorphic Encryptions*
+
+###
+
+[![multichain-client](https://cdn-icons-png.flaticon.com/128/3175/3175175.png)](https://github.com/0xlax/multichain-client)
+### Multichain-Client[WIP] : *A library used to query & fetch the data from blockchain nodes as unified data responses as objects with static named properties.*
+
+### 
+
+[![flashloan](https://cdn-icons-png.flaticon.com/128/3175/3175138.png)](https://bitbucket.org/roggieaf/flashloan/)
+###  Composable Solana Flashloan : *traditional flash-loan program based on callback functionality and fail trigger*
+
+###
+
+[![multisig](https://cdn-icons-png.flaticon.com/128/3175/3175221.png)](https://github.com/0xlax/solana-multisig)
+### Solana Multisig : *multisig to execute arbitrary Solana transactions*
+
+### 
+
+[![gRPC](https://cdn-icons-png.flaticon.com/128/1788/1788663.png)](https://github.com/0xlax/gRPC)
+### gRPC: *A gRPC blockchain model with server & Client built in Go*
+
+###
+
+[![Gemini](https://cdn-icons-png.flaticon.com/128/1788/1788708.png)](https://github.com/0xlax/gemini)
+### Gemini : *Rust API binding for Gemini exchange*
+
+
 
 #### and [more](https://github.com/0xlax) . . .
 
  
 
 <!-- 
-https://cdn-icons-png.flaticon.com/128/3175/3175132.png
-https://cdn-icons-png.flaticon.com/128/3175/3175175.png
-https://cdn-icons-png.flaticon.com/128/3175/3175138.png
-https://cdn-icons-png.flaticon.com/128/3175/3175221.png
-https://www.flaticon.com/free-icon/mountains_3175239?related_id=3175239
+
+
+
 
  -->
