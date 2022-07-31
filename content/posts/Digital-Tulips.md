@@ -1,7 +1,7 @@
 ---
 title: "Quantitative Trading in Crypto - Let the blockchain talk!"
 date: 2022-06-16T16:59:52+05:30
-cover: " "
+cover: "https://miro.medium.com/max/1400/0*WUnJZ2PhVLQgZi_5.jpg"
 Description: "Quantative Trading- If you love 'Math Money', this is for you"
 tags: [
 	"trading",
