@@ -40,8 +40,8 @@ Rust is a modern systems programming language that offers a number of benefits f
 {{< image src="/img/arch.png" alt="nesarch" position="center" >}}
 
 
-Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are goint to build.
-A cartrdge is an actual game rom stored in physical cartridge which has a Program Rom to store game data and Character Rom to store grahics data.
+Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are going to build.
+A cartridge is an actual game rom stored in physical cartridge which has a Program Rom to store game data and Character Rom to store grahics data.
 CPU  is the central processing unit (duh) of the NES. It's a modified version of the 6502 CPU that runs at 1.79 MHz.
 PPU is the chip responsible for generating the graphics and video output of the NES while PPU Registers are the registers in the PPU that control the generation of video output. Similarly with Audio and Audio Registers.
 Lastly, controller revieces game imputs from game controller.
@@ -54,34 +54,8 @@ Now that we are sure of whats inside. Its time to emulate. basically, We underst
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### References
 * [Nesdev Wiki](https://www.nesdev.org/wiki/Nesdev_Wiki)
-* 
+* [Libraries](https://lib.rs/emulators)
+
+Part2: [NES Emulator in Rust: CPU] 
