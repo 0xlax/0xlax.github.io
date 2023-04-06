@@ -1,7 +1,7 @@
 ---
 title: "NES Emulator in Rust Part 1"
 date: 2023-04-06T16:59:52+05:30
-cover: "https://ethereum.org/static/5d3af9eb308978e7a078bf51022d8a5c/24462/merge.webp"
+cover: "https://www.copetti.org/images/consoles/nes/ppu_mario/nametable_marked.e0e520cc7636d1539f9798032e9c14882a79b49cadba9faf25bfece7ae19cbe3.png"
 Description: Developing NES emulator in Rust from Scratch.
 tags: [
     "rust",
