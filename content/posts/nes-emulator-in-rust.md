@@ -24,3 +24,82 @@ The first NES emulator was called Pasofami and was developed by a Japanese progr
 Another popular NES emulator is FCEUX, which stands for "FCE Ultra eXtended." It was created by the FCE team in 2004 as an extension of the original FCE Ultra emulator. FCEUX is known for its advanced debugging features and its ability to emulate many different NES hardware configurations.
 
 In recent years, there has been a trend of developing NES emulators in new programming languages, such as Rust. Rust is a systems programming language that provides a good balance of performance and safety, making it an ideal choice for building emulators.
+
+
+### Rust
+
+Rust is a modern systems programming language that offers a number of benefits for building an NES emulator. One of the main advantages of Rust is its focus on safety and performance. Rust's type system ensures that your code is type-safe and memory-safe, reducing the risk of common programming errors like buffer overflows and null pointer dereferences. Additionally, Rust provides powerful abstractions for working with low-level hardware, such as the NES's 6502 CPU and its various memory-mapped registers. This makes it easier to write clean and maintainable code, while still achieving high performance. However, to fully benefit from this series of posts, you'll need to have a basic understanding of Rust concepts like ownership, borrowing, lifetimes, and macros.
+
+
+
+### NES Hardware Architecture
+
++----------------------------------------------------+
+|                       Cartridge                     |
+| +------------------------------------------------+ |
+| |                  Program ROM                   | |
+| +------------------------------------------------+ |
+| |                  Character ROM                 | |
+| +------------------------------------------------+ |
++----------------------+-----------------------------+
+|        CPU           |         Picture Processing   |
++----------------------+-----------------------------+
+|         RAM          |            PPU Registers     |
+| +---+ +------------+ | +---------+ +-------------+ |
+| |   | |            | | |         | |             | |
+| |   +-| 6502       |-+ |         +-| Picture     | |
+| |   | |            | | |         | | Processing  | |
+| |   | +------------+ | |         | | Unit (PPU)  | |
+| |   | |   Address    |-+ |         | |             | |
+| |   | +------------+   |         | +-------------+ |
+| |   | |     Data     |-+         | |   Registers  | |
+| |   | +------------+ |           +---------------+
+| +---+ |  Controller  | |
+|       +------------+-+ 
+|       |     Audio    |
+|       +-------------+
+|       |   Registers  |
+|       +-------------+
++----------------------+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### References
+* [Nesdev Wiki](https://www.nesdev.org/wiki/Nesdev_Wiki)
+* 
