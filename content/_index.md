@@ -8,4 +8,4 @@ show_social_links = true
 {{< image src="/img/ezgif-5-a521e4e40e.gif" alt="" position="center" style="border-radius: 8px; height: 60px;"  >}}
 
 
-Blockchain, Maths and Economics
+Systems, Maths and Economics
