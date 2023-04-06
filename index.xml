@@ -12,7 +12,51 @@ History
 &lt;p>The Nintendo Entertainment System (NES) was first released in Japan in 1983 and quickly became a cultural phenomenon, selling millions of units worldwide. Over the years, many gamers have wanted to relive the nostalgia of playing their favorite NES games. This led to the development of NES emulators, which allow users to play NES games on their computers or other devices.&lt;/p>
 &lt;p>The first NES emulator was called Pasofami and was developed by a Japanese programmer named Yuiichi Toyama in 1989. It was later released as freeware in 1995. However, Pasofami was not very accurate and had many compatibility issues.In 1996, a programmer named Marat Fayzullin released the first version of his emulator, VirtualNES. It was the first NES emulator to achieve a high level of accuracy and compatibility. This paved the way for many other developers to create their own NES emulators.One of the most popular NES emulators of all time is Nestopia. It was created by Martin Freij in 1997 and is still widely used today. Nestopia was known for its high accuracy and compatibility with many NES games. It was also the first emulator to support netplay, which allows users to play games with others over the internet.&lt;/p>
 &lt;p>Another popular NES emulator is FCEUX, which stands for &amp;ldquo;FCE Ultra eXtended.&amp;rdquo; It was created by the FCE team in 2004 as an extension of the original FCE Ultra emulator. FCEUX is known for its advanced debugging features and its ability to emulate many different NES hardware configurations.&lt;/p>
-&lt;p>In recent years, there has been a trend of developing NES emulators in new programming languages, such as Rust. Rust is a systems programming language that provides a good balance of performance and safety, making it an ideal choice for building emulators.&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+&lt;p>In recent years, there has been a trend of developing NES emulators in new programming languages, such as Rust. Rust is a systems programming language that provides a good balance of performance and safety, making it an ideal choice for building emulators.&lt;/p>
+&lt;h3 id="rust">
+Rust
+&lt;a href="#rust" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>Rust is a modern systems programming language that offers a number of benefits for building an NES emulator. One of the main advantages of Rust is its focus on safety and performance. Rust&amp;rsquo;s type system ensures that your code is type-safe and memory-safe, reducing the risk of common programming errors like buffer overflows and null pointer dereferences. Additionally, Rust provides powerful abstractions for working with low-level hardware, such as the NES&amp;rsquo;s 6502 CPU and its various memory-mapped registers. This makes it easier to write clean and maintainable code, while still achieving high performance. However, to fully benefit from this series of posts, you&amp;rsquo;ll need to have a basic understanding of Rust concepts like ownership, borrowing, lifetimes, and macros.&lt;/p>
+&lt;h3 id="nes-hardware-architecture">
+NES Hardware Architecture
+&lt;a href="#nes-hardware-architecture" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| Cartridge |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ |
+| | Program ROM | |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ |
+| | Character ROM | |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ |
++&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+
+| CPU | Picture Processing |
++&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;+
+| RAM | PPU Registers |
+| +&amp;mdash;+ +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ | +&amp;mdash;&amp;mdash;&amp;mdash;+ +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+ |
+| | | | | | | | | | |
+| | +-| 6502 |-+ | +-| Picture | |
+| | | | | | | | | Processing | |
+| | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ | | | | Unit (PPU) | |
+| | | | Address |-+ | | | | |
+| | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+ |
+| | | | Data |-+ | | Registers | |
+| | | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+ | +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+
+| +&amp;mdash;+ | Controller | |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;+-+
+| | Audio |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
+| | Registers |
+| +&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+
++&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;-+&lt;/p>
+&lt;h3 id="references">
+References
+&lt;a href="#references" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;ul>
+&lt;li>&lt;a href="https://www.nesdev.org/wiki/Nesdev_Wiki">Nesdev Wiki&lt;/a>&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
