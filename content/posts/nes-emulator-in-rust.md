@@ -46,6 +46,9 @@ CPU  is the central processing unit (duh) of the NES. It's a modified version of
 PPU is the chip responsible for generating the graphics and video output of the NES while PPU Registers are the registers in the PPU that control the generation of video output. Similarly with Audio and Audio Registers.
 Lastly, controller revieces game imputs from game controller.
 
+Now that we are sure of whats inside. Its time to emulate. basically, We understand how the hardware works and we are going to build a customised emulator that replicates the working of the old NES hardware to read and run the binary ROMs and feel the retro gaming era. Now why are we doing all this? idk I was born in 2001 that's why maybe? Moving on.
+
+
 
 
 
