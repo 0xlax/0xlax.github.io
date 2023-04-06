@@ -10,33 +10,7 @@ History # The Nintendo Entertainment System (NES) was first released in Japan in
 <a href=#why class=h-anchor aria-hidden=true>#</a></h3><p>For fun. moving on..</p><h3 id=history>History
 <a href=#history class=h-anchor aria-hidden=true>#</a></h3><p>The Nintendo Entertainment System (NES) was first released in Japan in 1983 and quickly became a cultural phenomenon, selling millions of units worldwide. Over the years, many gamers have wanted to relive the nostalgia of playing their favorite NES games. This led to the development of NES emulators, which allow users to play NES games on their computers or other devices.</p><p>The first NES emulator was called Pasofami and was developed by a Japanese programmer named Yuiichi Toyama in 1989. It was later released as freeware in 1995. However, Pasofami was not very accurate and had many compatibility issues.In 1996, a programmer named Marat Fayzullin released the first version of his emulator, VirtualNES. It was the first NES emulator to achieve a high level of accuracy and compatibility. This paved the way for many other developers to create their own NES emulators.One of the most popular NES emulators of all time is Nestopia. It was created by Martin Freij in 1997 and is still widely used today. Nestopia was known for its high accuracy and compatibility with many NES games. It was also the first emulator to support netplay, which allows users to play games with others over the internet.</p><p>Another popular NES emulator is FCEUX, which stands for &ldquo;FCE Ultra eXtended.&rdquo; It was created by the FCE team in 2004 as an extension of the original FCE Ultra emulator. FCEUX is known for its advanced debugging features and its ability to emulate many different NES hardware configurations.</p><p>In recent years, there has been a trend of developing NES emulators in new programming languages, such as Rust. Rust is a systems programming language that provides a good balance of performance and safety, making it an ideal choice for building emulators.</p><h3 id=rust>Rust
 <a href=#rust class=h-anchor aria-hidden=true>#</a></h3><p>Rust is a modern systems programming language that offers a number of benefits for building an NES emulator. One of the main advantages of Rust is its focus on safety and performance. Rust&rsquo;s type system ensures that your code is type-safe and memory-safe, reducing the risk of common programming errors like buffer overflows and null pointer dereferences. Additionally, Rust provides powerful abstractions for working with low-level hardware, such as the NES&rsquo;s 6502 CPU and its various memory-mapped registers. This makes it easier to write clean and maintainable code, while still achieving high performance. However, to fully benefit from this series of posts, you&rsquo;ll need to have a basic understanding of Rust concepts like ownership, borrowing, lifetimes, and macros.</p><h3 id=nes-hardware-architecture>NES Hardware Architecture
-<a href=#nes-hardware-architecture class=h-anchor aria-hidden=true>#</a></h3><p>+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+
-| Cartridge |
-| +&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+ |
-| | Program ROM | |
-| +&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+ |
-| | Character ROM | |
-| +&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;+ |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
-| CPU | Picture Processing |
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&ndash;+
-| RAM | PPU Registers |
-| +&mdash;+ +&mdash;&mdash;&mdash;&mdash;+ | +&mdash;&mdash;&mdash;+ +&mdash;&mdash;&mdash;&mdash;-+ |
-| | | | | | | | | | |
-| | +-| 6502 |-+ | +-| Picture | |
-| | | | | | | | | Processing | |
-| | | +&mdash;&mdash;&mdash;&mdash;+ | | | | Unit (PPU) | |
-| | | | Address |-+ | | | | |
-| | | +&mdash;&mdash;&mdash;&mdash;+ | | +&mdash;&mdash;&mdash;&mdash;-+ |
-| | | | Data |-+ | | Registers | |
-| | | +&mdash;&mdash;&mdash;&mdash;+ | +&mdash;&mdash;&mdash;&mdash;&mdash;+
-| +&mdash;+ | Controller | |
-| +&mdash;&mdash;&mdash;&mdash;+-+
-| | Audio |
-| +&mdash;&mdash;&mdash;&mdash;-+
-| | Registers |
-| +&mdash;&mdash;&mdash;&mdash;-+
-+&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;-+</p><p>Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are goint to build.
+<a href=#nes-hardware-architecture class=h-anchor aria-hidden=true>#</a></h3><img src=/img/arch.png alt=nesarch class=center><p>Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are goint to build.
 A cartrdge is an actual game rom stored in physical cartridge which has a Program Rom to store game data and Character Rom to store grahics data.
 CPU is the central processing unit (duh) of the NES. It&rsquo;s a modified version of the 6502 CPU that runs at 1.79 MHz.
 PPU is the chip responsible for generating the graphics and video output of the NES while PPU Registers are the registers in the PPU that control the generation of video output. Similarly with Audio and Audio Registers.
