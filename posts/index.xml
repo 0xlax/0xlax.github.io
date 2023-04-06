@@ -23,8 +23,8 @@ NES Hardware Architecture
 &lt;a href="#nes-hardware-architecture" class="h-anchor" aria-hidden="true">#&lt;/a>
 &lt;/h3>
 &lt;img src="https://0xlax.github.io/img/arch.png" alt="nesarch" class="center" />
-&lt;p>Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are goint to build.
-A cartrdge is an actual game rom stored in physical cartridge which has a Program Rom to store game data and Character Rom to store grahics data.
+&lt;p>Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are going to build.
+A cartridge is an actual game rom stored in physical cartridge which has a Program Rom to store game data and Character Rom to store grahics data.
 CPU is the central processing unit (duh) of the NES. It&amp;rsquo;s a modified version of the 6502 CPU that runs at 1.79 MHz.
 PPU is the chip responsible for generating the graphics and video output of the NES while PPU Registers are the registers in the PPU that control the generation of video output. Similarly with Audio and Audio Registers.
 Lastly, controller revieces game imputs from game controller.&lt;/p>
@@ -35,8 +35,15 @@ References
 &lt;/h3>
 &lt;ul>
 &lt;li>&lt;a href="https://www.nesdev.org/wiki/Nesdev_Wiki">Nesdev Wiki&lt;/a>&lt;/li>
-&lt;li>&lt;/li>
-&lt;/ul></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
+&lt;li>&lt;a href="https://lib.rs/emulators">Libraries&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Part2: [NES Emulator in Rust: CPU]&lt;/p></description></item><item><title>NES Emulator in Rust: CPU</title><link>https://0xlax.github.io/posts/nes-emulator-in-rust2/</link><pubDate>Wed, 05 Apr 2023 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/nes-emulator-in-rust2/</guid><description>
+&lt;img src="https://www.copetti.org/images/consoles/nes/ppu_mario/nametable_marked.e0e520cc7636d1539f9798032e9c14882a79b49cadba9faf25bfece7ae19cbe3.png"/>
+&lt;h3 id="cpu">
+CPU
+&lt;a href="#cpu" class="h-anchor" aria-hidden="true">#&lt;/a>
+&lt;/h3>
+&lt;p>In the &lt;a href="https://laxman.tech/posts/nes-emulator-in-rust/">previous post&lt;/a>, I gave a tiny introduciton on how NES hardware works which honestly is quite enough to start building. We are going to have to build each component so I will delve deeper into the workings of each as we build, starting with CPU.&lt;/p></description></item><item><title>Rise of Horizen</title><link>https://0xlax.github.io/posts/rise-of-horizen/</link><pubDate>Tue, 14 Jun 2022 00:00:00 +0000</pubDate><guid>https://0xlax.github.io/posts/rise-of-horizen/</guid><description>
 &lt;img src="https://www.horizen.io/assets/img/icons/page_media/logo_no_tagline_dark.svg"/>
 &lt;p>Ever since I watched the Consensus2022 presentation by &lt;a href="https://www.twitter.com/robviglione">Rob Viglione&lt;/a> about zkSNARKs, made me curious how Horizen plans its scalability. This blog is a short deep dive into Horizen Blockchain and relevent comparisions.&lt;/p>
 &lt;h3 id="horizen-zen">
