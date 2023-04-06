@@ -34,34 +34,10 @@ Rust is a modern systems programming language that offers a number of benefits f
 
 ### NES Hardware Architecture
 
-+----------------------------------------------------+
-|                       Cartridge                     |
-| +------------------------------------------------+ |
-| |                  Program ROM                   | |
-| +------------------------------------------------+ |
-| |                  Character ROM                 | |
-| +------------------------------------------------+ |
-+----------------------+-----------------------------+
-|        CPU           |         Picture Processing   |
-+----------------------+-----------------------------+
-|         RAM          |            PPU Registers     |
-| +---+ +------------+ | +---------+ +-------------+ |
-| |   | |            | | |         | |             | |
-| |   +-| 6502       |-+ |         +-| Picture     | |
-| |   | |            | | |         | | Processing  | |
-| |   | +------------+ | |         | | Unit (PPU)  | |
-| |   | |   Address    |-+ |         | |             | |
-| |   | +------------+   |         | +-------------+ |
-| |   | |     Data     |-+         | |   Registers  | |
-| |   | +------------+ |           +---------------+
-| +---+ |  Controller  | |
-|       +------------+-+ 
-|       |     Audio    |
-|       +-------------+
-|       |   Registers  |
-|       +-------------+
-+----------------------+
 
+
+
+{{< image src="/img/arch.png" alt="nesarch" position="center" >}}
 
 
 Understanding the original NES hardware is quite important as it helps you develop foundational understanding of what you are goint to build.
