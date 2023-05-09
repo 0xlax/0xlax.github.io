@@ -1,0 +1,21 @@
+-- import: sarvom.github.io/laxman/assets
+-- import: sarvom.github.io/laxman-ui as lib
+
+-- lib.page:
+
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+
+Developing NES emulator in Rust from Scratch.
+
+-- lib.blog-post: CPU
+
+In the [previous post](/blogpost-1), I gave a tiny introduciton on how NES hardware works which 
+honestly is quite enough to start building. We are going to have to build each component
+ so I will delve deeper into the workings of each as we build, starting with CPU.
+
+-- end: lib.blog
+
+-- end: lib.page

@@ -1,0 +1,16 @@
+-- import: sarvom.github.io/laxman/assets
+-- import: sarvom.github.io/laxman-ui as lib
+
+-- lib.page:
+
+-- lib.blog:
+
+-- lib.blog-post: Directory
+
+-- ftd.image:
+src: $assets.files.images.franklin.jpg
+width.fixed.px: 200
+
+-- end: lib.blog
+
+-- end: lib.page
