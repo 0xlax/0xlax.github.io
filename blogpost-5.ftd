@@ -1,0 +1,181 @@
+-- import: sarvom.github.io/laxman/assets
+-- import: sarvom.github.io/laxman-ui as lib
+
+-- lib.page:
+
+-- lib.blog: Eth2, The Merge and L1s
+pic: $assets.files.images.merge.webp
+date:2022-06-01
+hashtag: #ETH2  #Beacon Chain  #L1 
+
+-- lib.blog-post: Introduction
+
+Prices of L1s are known to be volatile and its hard to spin a number on its valuation. 
+Instead, using metrics as Total Value Locked, number of transactions and users count we 
+will see the comparision of Eth2 with other L1s. With Ethereum’s upcoming transition 
+from Proof of Work (POW) to Proof of Stake (POS), we can now use staking yields as a 
+basis of comparison across all Layer-1 tokens.
+
+-- lib.blog-post: The Merge 🐼
+pic: $assets.files.images.meme.png
+
+The Beacon Chain, a Ethereum POS network has been running parallel with Ethereum since 
+December 2020. The transition from POW consensus to POS has been awaited and anticipated 
+by many. On the merge, the Ethereum’s POW consensus layer will be removed and all future 
+blocks on Ethereum are expected and will be achieved by the then merged Beacon Chain’s 
+POS Consensus layer.
+
+The Ethereum team has been workign on making this happen along with series of other 
+tests and conducts that regulate the process and safety after the merge including the 
+Kiln public testnet Merge in March and the most recent 4th shadow fork
+
+-- ftd.iframe:
+src: https://twitter.com/JackNiewold/status/1506779959242764288
+width: fill-container
+
+-- lib.blog-quote:
+
+Merge is expected to happen in Q3/Q4 2022.
+
+-- lib.blog-post:
+
+The important takeaway from the Merge is that it does not help scale Ethereum! If so 
+what is the point then?
+
+- Proof-of-Work concensus has a laborious requirement of energy. Miners running nodes in 
+a POW system use powerful GPUs that requires vast amount of electricity to run the 
+calculations and cryptographic puzzles - hashing algorithms that so as to keep the 
+network and funds secure. Comparatively, any recent consumer hardware is capable of 
+being ETH2 validator. And pushing a node to the network to participare in network’s 
+consensus algorithm with a minimum stake requirements of 32 ETH and if incase any sort 
+of malicious activities by the validatos leads to slashing of their staked funds.
+
+In addition, since POW requires expensive hardware and electricity costs, ETH token 
+inflation has been around 4.3% per year to compensate the miners for their work. With 
+POS being more energy-efficient, the cost to secure the Ethereum network (token 
+inflation) is much less. Ethereum’s POS issuance model is based on how much ETH is being 
+staked. Currently, there are about 12.5M ETH staked on the Beacon Chain – at that level, 
+annual issuance would be about 0.5%.
+
+Although, this new merge is giving out opportunities to develop many Proof-of-Stake 
+distruibuted validator layer protocols and middleware clients. that enables you to run 
+validators across other independent nodes safely. Like, Charon from Obol Labs
+
+-- lib.blog-quote:
+
+Charon integrates into the Ethereum consensus stack as a middleware between the 
+validator client and the beacon node via the official Eth Beacon Node REST API. Charon 
+supports any upstream beacon node that serves the Beacon API. Charon supports any 
+downstream standalone validator client that consumes the Beacon API.
+
+-- lib.blog-post:
+
+One of the advantage of Chaon is you that you can participate in the network’s consensus 
+by staking only half the required stake amounts and eark equivalent rewards on your 
+validator nodes.
+  
+-- lib.blog-post: ETH Staking
+
+An yield return depends on the ETH staked which drives the staking returns
+
+- **Yields based on ETH staked**
+
+-- lib.blog-table-2:
+content-1: ETH Staked
+content-2: Max Annual Issuarance (ETH)
+content-3: Max Annual Issurance in %
+content-4: Staking Yield %
+content-5: Annual Burn (ETH)
+content-6: Real Staking Yield %
+
+-- lib.blog-table-2:
+content-1: 1,000,000					
+content-2: 181,019
+content-3: 0.15%
+content-4: 18.10%
+content-5: -3,012,400
+content-6: 69.68%
+
+-- lib.blog-table-2:
+content-1: 3,000,000				
+content-2: 313,534
+content-3: 0.26%
+content-4: 10.45%
+content-5: -3,012,400	
+content-6: 29.10%
+
+-- lib.blog-table-2:
+content-1: 10,000,000				
+content-2: 572,433
+content-3: 0.47%
+content-4: 5.72%
+content-5: -3,012,400
+content-6: 12.66%
+
+-- lib.blog-table-2:
+content-1: 12,500,000							
+content-2: 624,814
+content-3: 0.52%
+content-4: 5.00%
+content-5: -3,012,400
+content-6: 10.92%	
+
+-- lib.blog-table-2:
+content-1: 30,000,000				
+content-2: 991,483	
+content-3: 0.82%	
+content-4: 3.30%	
+content-5: -3,012,400	
+content-6: 6.62%	
+
+-- lib.blog-table-2:
+content-1: 42,000,000				
+content-2: 1,131,833	
+content-3: 0.94%	
+content-4: 2.69%	
+content-5: -3,012,400	
+content-6: 5.43%
+
+-- lib.blog-table-2:
+content-1: 66,000,000					
+content-2: 1,412,534
+content-3: 1.17%	
+content-4: 2.14%	
+content-5: bo-3,012,400	
+content-6: 4.21%
+
+-- lib.blog-post:
+
+The above table estimations are upped with few assumptions excluding MEV, with the 
+current ETH staked on Beacon chain(~10% supply, 12.5M ETH).
+
+-- lib.blog-post: - ETH Staking Yields vs Competing L1s
+
+Looking at nominal yields, ETH is about middle of the pack compared to its major 
+competitors, with yields ranging from 6.64% to 17.53% in nominal terms. However, with 
+the exception of BNB, all of the other tokens in the competitive set are inflationary. 
+Factoring in token issuance rates, ETH has the highest staking returns on a real yield 
+basis.
+
+-- lib.blog-post:
+pic: $assets.files.images.graph.png
+
+One point to note is that currently only 10.3% of ETH is staked on the Beacon Chain, 
+which is the lowest in the competitive set and likely due to concerns about locking up 
+ETH for a long time (withdrawals are not possible currently). Staking should increase 
+post-Merge as the execution risk of the Merge is removed, ETH moves closer to enabling 
+staking withdrawal, and more people grow comfortable with staking ETH. Staking 
+participation amongst competing L1s ranges from 35% to 76% with an average of 55%. If 
+ETH staking participation increases to the average of 55%, real staking yields for ETH 
+would likely decrease to approximately 4.21%. At 55% of supply staked, ETH’s real yield 
+would project to be higher than SOL, AVAX and MATIC, but lower than BNB, DOT, NEAR and 
+FTM
+
+After factoring in projected increases to circulating supply over the next year for the 
+competitive set, ETH’s real staking yield net of dilution is the highest if we assume 
+staking participation remains the same. If ETH’s staking participation reaches 55%, then 
+ETH would rank higher than SOL, AVAX, NEAR and MATIC but lower than BNB, DOT and FTM.
+
+-- end: lib.blog
+
+-- end: lib.page

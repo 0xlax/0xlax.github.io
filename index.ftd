@@ -1,0 +1,60 @@
+-- import: sarvom.github.io/laxman/assets
+-- import: sarvom.github.io/laxman-ui as lib
+
+-- lib.page:
+
+-- lib.hero: **The Terminal**
+pic: $assets.files.images.game.gif
+
+Systems, Maths and Economics
+
+
+
+-- lib.blog: NES Emulator in Rust Part 1
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
+cta-url-1: blogpost-1/
+
+Developing NES emulator in Rust from Scratch.
+
+-- lib.blog: NES Emulator in Rust: CPU
+pic: $assets.files.images.nes1.png
+date: 2023-04-05
+hashtag: #rust  #emulator  #NES  #EmuDev 
+cta-text-1: Read more >
+cta-url-1: blogpost-2/
+
+Developing NES emulator in Rust from Scratch.
+
+-- lib.blog: Rise of Horizen
+pic: $assets.files.images.horizon.svg
+date: 2022-06-14
+hashtag: #zk-SNARKs  #Blockchain  #Dapps  #Cosmos 
+cta-text-1: Read more >
+cta-url-1: blogpost-3/
+
+Exploration of Horizen blockchain and its core technology, Sidechains-SDK, Zendoo, 
+path to Privacy
+
+-- lib.blog: X25519 Elliptic Curve
+pic: $assets.files.images.curve.png
+date: 2022-06-02
+hashtag: #cryptography  #ECDH 
+cta-text-1: Read more >
+cta-url-1: blogpost-4/
+
+A state-of-the-art Diffie-Hellman protocol
+
+-- lib.blog: Eth2, The Merge and L1s
+pic: $assets.files.images.merge.webp
+date:2022-06-01
+hashtag: #ETH2  #Beacon Chain  #L1 
+cta-text-1: Read more >
+cta-url-1: blogpost-5/
+
+ETH2, The Merge and comparision with other L1s
+
+-- end: lib.page
+

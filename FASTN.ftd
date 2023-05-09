@@ -1,0 +1,8 @@
+-- import: fastn
+
+-- fastn.package: sarvom.github.io/laxman
+
+-- fastn.dependency: fifthtry.github.io/doc-site as ds
+-- fastn.dependency: sarvom.github.io/laxman-ui
+
+
